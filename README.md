@@ -2,9 +2,10 @@
 
 Simple flowchart for [Satisfactory](https://www.satisfactorygame.com/ "Open official Satisfactory website"), a game developed & published by _Coffe Stain Studios_ ([game Steam page](https://store.steampowered.com/app/526870/Satisfactory/ "Open Satisfactory Steam page")).
 
-> [!NOTE] WIP
+> [!NOTE]
+> TODO
 >
-> build interactive graph/flowchart
+> - build interactive graph/flowchart
 >
 
 - [`data.json`](#datajson)
