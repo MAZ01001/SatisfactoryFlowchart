@@ -1,0 +1,585 @@
+digraph Recipes {
+	0 [label="Actual Snow"]
+	1 [label="Adaptive Control Unit"]
+	2 [label="AI Expansion Server"]
+	3 [label="AI Limiter"]
+	4 [label="Alclad Aluminum Sheet"]
+	5 [label="Alien DNA Capsule"]
+	6 [label="Alien Power Matrix"]
+	7 [label="Alternate: Adhered Iron Plate"]
+	8 [label="Alternate: Alclad Casing"]
+	9 [label="Alternate: Aluminum Beam"]
+	10 [label="Alternate: Aluminum Rod"]
+	11 [label="Alternate: Automated Miner"]
+	12 [label="Alternate: Automated Speed Wiring"]
+	13 [label="Alternate: Basic Iron Ingot"]
+	14 [label="Alternate: Biocoal"]
+	15 [label="Alternate: Bolted Frame"]
+	16 [label="Alternate: Bolted Iron Plate"]
+	17 [label="Alternate: Cast Screw"]
+	18 [label="Alternate: Caterium Circuit Board"]
+	19 [label="Alternate: Caterium Computer"]
+	20 [label="Alternate: Caterium Wire"]
+	21 [label="Alternate: Charcoal"]
+	22 [label="Alternate: Cheap Silica"]
+	23 [label="Alternate: Classic Battery"]
+	24 [label="Alternate: Cloudy Diamonds"]
+	25 [label="Alternate: Coated Cable"]
+	26 [label="Alternate: Coated Iron Canister"]
+	27 [label="Alternate: Coated Iron Plate"]
+	28 [label="Alternate: Coke Steel Ingot"]
+	29 [label="Alternate: Compacted Coal"]
+	30 [label="Alternate: Compacted Steel Ingot"]
+	31 [label="Alternate: Cooling Device"]
+	32 [label="Alternate: Copper Alloy Ingot"]
+	33 [label="Alternate: Copper Rotor"]
+	34 [label="Alternate: Crystal Computer"]
+	35 [label="Alternate: Dark Matter Crystallization"]
+	36 [label="Alternate: Dark Matter Trap"]
+	37 [label="Alternate: Dark-Ion Fuel"]
+	38 [label="Alternate: Diluted Fuel"]
+	39 [label="Alternate: Diluted Packaged Fuel"]
+	40 [label="Alternate: Distilled Silica"]
+	41 [label="Alternate: Electric Motor"]
+	42 [label="Alternate: Electrode Aluminum Scrap"]
+	43 [label="Alternate: Electrode Circuit Board"]
+	44 [label="Alternate: Electromagnetic Connection Rod"]
+	45 [label="Alternate: Encased Industrial Pipe"]
+	46 [label="Alternate: Fertile Uranium"]
+	47 [label="Alternate: Fine Black Powder"]
+	48 [label="Alternate: Fine Concrete"]
+	49 [label="Alternate: Flexible Framework"]
+	50 [label="Alternate: Fused Quartz Crystal"]
+	51 [label="Alternate: Fused Quickwire"]
+	52 [label="Alternate: Fused Wire"]
+	53 [label="Alternate: Heat Exchanger"]
+	54 [label="Alternate: Heat-Fused Frame"]
+	55 [label="Alternate: Heavy Encased Frame"]
+	56 [label="Alternate: Heavy Flexible Frame"]
+	57 [label="Alternate: Heavy Oil Residue"]
+	58 [label="Alternate: Infused Uranium Cell"]
+	59 [label="Alternate: Instant Plutonium Cell"]
+	60 [label="Alternate: Instant Scrap"]
+	61 [label="Alternate: Insulated Cable"]
+	62 [label="Alternate: Insulated Crystal Oscillator"]
+	63 [label="Alternate: Iron Alloy Ingot"]
+	64 [label="Alternate: Iron Pipe"]
+	65 [label="Alternate: Iron Wire"]
+	66 [label="Alternate: Leached Caterium Ingot"]
+	67 [label="Alternate: Leached Copper Ingot"]
+	68 [label="Alternate: Leached Iron ingot"]
+	69 [label="Alternate: Molded Beam"]
+	70 [label="Alternate: Molded Steel Pipe"]
+	71 [label="Alternate: Nitro Rocket Fuel"]
+	72 [label="Alternate: OC Supercomputer"]
+	73 [label="Alternate: Oil-Based Diamonds"]
+	74 [label="Alternate: Petroleum Diamonds"]
+	75 [label="Alternate: Pink Diamonds"]
+	76 [label="Alternate: Plastic AI Limiter"]
+	77 [label="Alternate: Plastic Smart Plating"]
+	78 [label="Alternate: Plutonium Fuel Unit"]
+	79 [label="Alternate: Polyester Fabric"]
+	80 [label="Alternate: Polymer Resin"]
+	81 [label="Alternate: Pure Aluminum Ingot"]
+	82 [label="Alternate: Pure Caterium Ingot"]
+	83 [label="Alternate: Pure Copper Ingot"]
+	84 [label="Alternate: Pure Iron Ingot"]
+	85 [label="Alternate: Pure Quartz Crystal"]
+	86 [label="Alternate: Quartz Purification"]
+	87 [label="Alternate: Quickwire Cable"]
+	88 [label="Alternate: Quickwire Stator"]
+	89 [label="Alternate: Radio Connection Unit"]
+	90 [label="Alternate: Radio Control System"]
+	91 [label="Alternate: Recycled Plastic"]
+	92 [label="Alternate: Recycled Rubber"]
+	93 [label="Alternate: Rigor Motor"]
+	94 [label="Alternate: Rubber Concrete"]
+	95 [label="Alternate: Silicon Circuit Board"]
+	96 [label="Alternate: Silicon High-Speed Connector"]
+	97 [label="Alternate: Sloppy Alumina"]
+	98 [label="Alternate: Solid Steel Ingot"]
+	99 [label="Alternate: Steamed Copper Sheet"]
+	100 [label="Alternate: Steel Canister"]
+	101 [label="Alternate: Steel Cast Plate"]
+	102 [label="Alternate: Steel Rod"]
+	103 [label="Alternate: Steel Rotor"]
+	104 [label="Alternate: Steel Screw"]
+	105 [label="Alternate: Steeled Frame"]
+	106 [label="Alternate: Stitched Iron Plate"]
+	107 [label="Alternate: Super-State Computer"]
+	108 [label="Alternate: Tempered Caterium Ingot"]
+	109 [label="Alternate: Tempered Copper Ingot"]
+	110 [label="Alternate: Turbo Blend Fuel"]
+	111 [label="Alternate: Turbo Diamonds"]
+	112 [label="Alternate: Turbo Electric Motor"]
+	113 [label="Alternate: Turbo Heavy Fuel"]
+	114 [label="Alternate: Turbo Pressure Motor"]
+	115 [label="Alternate: Uranium Fuel Unit"]
+	116 [label="Alternate: Wet Concrete"]
+	117 [label="Alumina Solution"]
+	118 [label="Aluminum Casing"]
+	119 [label="Aluminum Ingot"]
+	120 [label="Aluminum Scrap"]
+	121 [label="Assembly Director System"]
+	122 [label="Automated Wiring"]
+	123 [label="Ballistic Warp Drive"]
+	124 [label="Battery"]
+	125 [label="Bauxite (Caterium)"]
+	126 [label="Bauxite (Copper)"]
+	127 [label="Biochemical Sculptor"]
+	128 [label="Biomass (Alien Protein)"]
+	129 [label="Biomass (Leaves)"]
+	130 [label="Biomass (Mycelia)"]
+	131 [label="Biomass (Wood)"]
+	132 [label="Black Powder"]
+	133 [label="Blade Runners"]
+	134 [label="Blue FICSMAS Ornament"]
+	135 [label="Cable"]
+	136 [label="Candy Cane"]
+	137 [label="Candy Cane Basher"]
+	138 [label="Caterium Ingot"]
+	139 [label="Caterium Ore (Copper)"]
+	140 [label="Caterium Ore (Quartz)"]
+	141 [label="Chainsaw"]
+	142 [label="Circuit Board"]
+	143 [label="Cluster Nobelisk"]
+	144 [label="Coal (Iron)"]
+	145 [label="Coal (Limestone)"]
+	146 [label="Computer"]
+	147 [label="Concrete"]
+	148 [label="Cooling System"]
+	149 [label="Copper FICSMAS Ornament"]
+	150 [label="Copper Ingot"]
+	151 [label="Copper Ore (Quartz)"]
+	152 [label="Copper Ore (Sulfur)"]
+	153 [label="Copper Powder"]
+	154 [label="Copper Sheet"]
+	155 [label="Crystal Oscillator"]
+	156 [label="Dark Matter Crystal"]
+	157 [label="Dark Matter Residue"]
+	158 [label="Diamonds"]
+	159 [label="Electromagnetic Control Rod"]
+	160 [label="Empty Canister"]
+	161 [label="Empty Fluid Tank"]
+	162 [label="Encased Industrial Beam"]
+	163 [label="Encased Plutonium Cell"]
+	164 [label="Encased Uranium Cell"]
+	165 [label="Excited Photonic Matter"]
+	166 [label="Explosive Rebar"]
+	167 [label="Fabric"]
+	168 [label="Factory Cart™"]
+	169 [label="Fancy Fireworks"]
+	170 [label="Ficsite Ingot (Aluminum)"]
+	171 [label="Ficsite Ingot (Caterium)"]
+	172 [label="Ficsite Ingot (Iron)"]
+	173 [label="Ficsite Trigon"]
+	174 [label="FICSMAS Bow"]
+	175 [label="FICSMAS Decoration"]
+	176 [label="FICSMAS Ornament Bundle"]
+	177 [label="FICSMAS Tree Branch"]
+	178 [label="FICSMAS Wonder Star"]
+	179 [label="Ficsonium"]
+	180 [label="Ficsonium Fuel Rod"]
+	181 [label="Fuel"]
+	182 [label="Fused Modular Frame"]
+	183 [label="Gas Filter"]
+	184 [label="Gas Mask"]
+	185 [label="Gas Nobelisk"]
+	186 [label="Golden Factory Cart™"]
+	187 [label="Hatcher Protein"]
+	188 [label="Hazmat Suit"]
+	189 [label="Heat Sink"]
+	190 [label="Heavy Modular Frame"]
+	191 [label="High-Speed Connector"]
+	192 [label="Hog Protein"]
+	193 [label="Homing Rifle Ammo"]
+	194 [label="Hoverpack"]
+	195 [label="Iodine-Infused Filter"]
+	196 [label="Ionized Fuel"]
+	197 [label="Iron FICSMAS Ornament"]
+	198 [label="Iron Ingot"]
+	199 [label="Iron Ore (Limestone)"]
+	200 [label="Iron Plate"]
+	201 [label="Iron Rebar"]
+	202 [label="Iron Rod"]
+	203 [label="Jetpack"]
+	204 [label="Limestone (Sulfur)"]
+	205 [label="Liquid Biofuel"]
+	206 [label="Magnetic Field Generator"]
+	207 [label="Modular Engine"]
+	208 [label="Modular Frame"]
+	209 [label="Motor"]
+	210 [label="Neural-Quantum Processor"]
+	211 [label="Nitric Acid"]
+	212 [label="Nitrogen Gas (Bauxite)"]
+	213 [label="Nitrogen Gas (Caterium)"]
+	214 [label="Nobelisk"]
+	215 [label="Nobelisk Detonator"]
+	216 [label="Non-Fissile Uranium"]
+	217 [label="Nuclear Pasta"]
+	218 [label="Nuke Nobelisk"]
+	219 [label="Nutritional Inhaler"]
+	220 [label="Object Scanner"]
+	221 [label="Packaged Alumina Solution"]
+	222 [label="Packaged Fuel"]
+	223 [label="Packaged Heavy Oil Residue"]
+	224 [label="Packaged Ionized Fuel"]
+	225 [label="Packaged Liquid Biofuel"]
+	226 [label="Packaged Nitric Acid"]
+	227 [label="Packaged Nitrogen Gas"]
+	228 [label="Packaged Oil"]
+	229 [label="Packaged Rocket Fuel"]
+	230 [label="Packaged Sulfuric Acid"]
+	231 [label="Packaged Turbofuel"]
+	232 [label="Packaged Water"]
+	233 [label="Parachute"]
+	234 [label="Petroleum Coke"]
+	235 [label="Plastic"]
+	236 [label="Plutonium Fuel Rod"]
+	237 [label="Plutonium Pellet"]
+	238 [label="Portable Miner"]
+	239 [label="Power Shard (1)"]
+	240 [label="Power Shard (2)"]
+	241 [label="Power Shard (5)"]
+	242 [label="Pressure Conversion Cube"]
+	243 [label="Protein Inhaler"]
+	244 [label="Pulse Nobelisk"]
+	245 [label="Quartz Crystal"]
+	246 [label="Quickwire"]
+	247 [label="Radio Control Unit"]
+	248 [label="Raw Quartz (Bauxite)"]
+	249 [label="Raw Quartz (Coal)"]
+	250 [label="Reanimated SAM"]
+	251 [label="Rebar Gun"]
+	252 [label="Red FICSMAS Ornament"]
+	253 [label="Reinforced Iron Plate"]
+	254 [label="Residual Fuel"]
+	255 [label="Residual Plastic"]
+	256 [label="Residual Rubber"]
+	257 [label="Rifle"]
+	258 [label="Rifle Ammo"]
+	259 [label="Rocket Fuel"]
+	260 [label="Rotor"]
+	261 [label="Rubber"]
+	262 [label="SAM Fluctuator"]
+	263 [label="Screw"]
+	264 [label="Shatter Rebar"]
+	265 [label="Silica"]
+	266 [label="Singularity Cell"]
+	267 [label="Smart Plating"]
+	268 [label="Smokeless Powder"]
+	269 [label="Snowball"]
+	270 [label="Solid Biofuel"]
+	271 [label="Sparkly Fireworks"]
+	272 [label="Spitter Protein"]
+	273 [label="Stator"]
+	274 [label="Steel Beam"]
+	275 [label="Steel Ingot"]
+	276 [label="Steel Pipe"]
+	277 [label="Stinger Protein"]
+	278 [label="Stun Rebar"]
+	279 [label="Sulfur (Coal)"]
+	280 [label="Sulfur (Iron)"]
+	281 [label="Sulfuric Acid"]
+	282 [label="Supercomputer"]
+	283 [label="Superposition Oscillator"]
+	284 [label="Sweet Fireworks"]
+	285 [label="Synthetic Power Shard"]
+	286 [label="Therapeutic Inhaler"]
+	287 [label="Thermal Propulsion Rocket"]
+	288 [label="Time Crystal"]
+	289 [label="Turbo Motor"]
+	290 [label="Turbo Rifle Ammo"]
+	291 [label="Turbo Rifle Ammo"]
+	292 [label="Turbofuel"]
+	293 [label="Unpackage Alumina Solution"]
+	294 [label="Unpackage Fuel"]
+	295 [label="Unpackage Heavy Oil Residue"]
+	296 [label="Unpackage Ionized Fuel"]
+	297 [label="Unpackage Liquid Biofuel"]
+	298 [label="Unpackage Nitric Acid"]
+	299 [label="Unpackage Nitrogen Gas"]
+	300 [label="Unpackage Oil"]
+	301 [label="Unpackage Rocket Fuel"]
+	302 [label="Unpackage Sulfuric Acid"]
+	303 [label="Unpackage Turbofuel"]
+	304 [label="Unpackage Water"]
+	305 [label="Uranium Fuel Rod"]
+	306 [label="Uranium Ore (Bauxite)"]
+	307 [label="Versatile Framework"]
+	308 [label="Vitamin Inhaler"]
+	309 [label="Wire"]
+	310 [label="Xeno-Basher"]
+	311 [label="Xeno-Zapper"]
+	312 [label="Zipline"]
+
+	0 -> 269, 271
+	1 -> 121
+	2 -> 35, 36, 156, 179
+	3 -> 62, 159, 218, 282
+	4 -> 23, 188, 189, 194, 283
+	6 -> 35, 36, 156, 179
+	7 -> 15, 77, 105, 141, 155, 168, 208, 220, 251, 267, 311
+	8 -> 53, 59, 90, 124, 182, 195, 247, 290, 291
+	9 -> 49, 104, 162, 215, 236, 307
+	10 -> 141, 168, 186, 201, 208, 238, 251, 260, 263, 310, 311, 312
+	12 -> 1
+	13 -> 17, 27, 64, 65, 98, 101, 172, 197, 200, 202
+	14 -> 24, 29, 50, 60, 71, 75, 98, 111, 120, 132, 158, 183, 249, 275, 279
+	15 -> 49, 55, 56, 133, 190, 307, 310
+	16 -> 15, 77, 105, 141, 155, 168, 208, 220, 251, 267, 311
+	17 -> 15, 16, 33, 56, 141, 190, 220, 251, 253, 257, 260
+	18 -> 1, 19, 34, 90, 96, 146, 191
+	19 -> 1, 107, 194, 247, 282
+	20 -> 12, 23, 25, 61, 103, 106, 107, 135, 203, 220, 262, 273, 310, 311
+	21 -> 24, 29, 50, 60, 71, 75, 98, 111, 120, 132, 158, 183, 249, 275, 279
+	22 -> 48, 58, 95, 96, 119, 133, 216
+	23 -> 107
+	24 -> 156, 288
+	25 -> 122, 141, 146, 155, 191, 215, 233, 311, 312
+	26 -> 221, 222, 223, 225, 228, 230, 231, 232
+	27 -> 7, 11, 16, 26, 106, 183, 203, 211, 238, 253, 266
+	28 -> 69, 70, 100, 101, 102, 274, 276
+	29 -> 30, 47, 113, 292
+	30 -> 69, 70, 100, 101, 102, 274, 276
+	31 -> 72, 287, 289
+	32 -> 4, 8, 51, 52, 99, 149, 153, 154, 309
+	33 -> 41, 77, 93, 112, 115, 133, 168, 186, 209, 267
+	34 -> 1, 107, 194, 247, 282
+	35 -> 37, 123, 266, 283, 285
+	36 -> 37, 123, 266, 283, 285
+	37 -> 30, 47, 113, 224, 292
+	38 -> 54, 71, 91, 92, 110, 222, 292
+	39 -> 294
+	40 -> 38, 40, 48, 58, 60, 79, 82, 83, 84, 85, 95, 96, 97, 99, 116, 117, 119, 127, 133, 148, 205, 211, 216, 232, 255, 256, 281
+	41 -> 31, 112, 114, 194, 203, 207, 257, 289
+	42 -> 38, 40, 60, 79, 81, 82, 83, 84, 85, 97, 99, 116, 117, 119, 127, 148, 205, 211, 232, 255, 256, 281
+	43 -> 1, 19, 34, 90, 96, 146, 191
+	44 -> 41, 107, 112, 115, 180, 206, 236, 305
+	45 -> 55, 56, 190, 305
+	46 -> 38, 40, 59, 60, 79, 82, 83, 84, 85, 97, 99, 116, 117, 127, 148, 205, 211, 232, 237, 255, 256, 281
+	47 -> 214, 268
+	48 -> 45, 55, 69, 70, 162, 163, 164, 266
+	49 -> 206
+	50 -> 62, 75, 89, 155, 264, 285
+	51 -> 3, 18, 19, 58, 76, 87, 88, 96, 191, 195, 278, 312
+	52 -> 12, 23, 25, 61, 103, 106, 107, 135, 203, 220, 262, 273, 310, 311
+	53 -> 31, 89, 148, 236
+	54 -> 242, 287
+	55 -> 1, 54, 182, 194
+	56 -> 1, 54, 182, 194
+	57 -> 25, 38, 39, 79, 110, 113, 223, 234, 254, 255, 256, 268
+	58 -> 115, 218, 305
+	59 -> 78, 236
+	60 -> 38, 40, 60, 79, 81, 82, 83, 84, 85, 97, 99, 116, 117, 119, 127, 148, 205, 211, 232, 255, 256, 281
+	61 -> 122, 141, 146, 155, 191, 215, 233, 311, 312
+	62 -> 34, 90, 93, 115, 244, 247, 283
+	63 -> 17, 27, 64, 65, 98, 101, 172, 197, 200, 202
+	64 -> 11, 45, 55, 88, 103, 105, 166, 184, 190, 203, 214, 257, 262, 273
+	65 -> 12, 23, 25, 61, 103, 106, 107, 135, 203, 220, 262, 273, 310, 311
+	66 -> 20, 51, 52, 171, 186, 246
+	67 -> 4, 8, 51, 52, 99, 149, 153, 154, 309
+	68 -> 17, 27, 64, 65, 98, 101, 172, 197, 200, 202
+	69 -> 49, 104, 162, 215, 236, 307
+	70 -> 11, 45, 55, 88, 103, 105, 166, 184, 190, 203, 214, 257, 262, 273
+	71 -> 30, 47, 113, 196, 229, 292
+	72 -> 121, 210
+	73 -> 156, 288
+	74 -> 156, 288
+	75 -> 156, 288
+	76 -> 62, 159, 218, 282
+	77 -> 207
+	79 -> 183, 184, 188, 233
+	80 -> 25, 38, 39, 79, 110, 113, 223, 234, 254, 255, 256, 268
+	81 -> 4, 8, 9, 10, 54, 118, 161, 170
+	82 -> 20, 51, 52, 171, 186, 246
+	83 -> 4, 8, 51, 52, 99, 149, 153, 154, 309
+	84 -> 17, 27, 64, 65, 98, 101, 172, 197, 200, 202
+	85 -> 62, 75, 89, 155, 264, 285
+	86 -> 40, 62, 75, 89, 155, 264, 285
+	87 -> 122, 141, 146, 155, 191, 215, 233, 311, 312
+	88 -> 12, 44, 93, 114, 122, 159, 209
+	89 -> 72, 112, 242, 289
+	90 -> 72, 112, 242, 289
+	91 -> 18, 23, 27, 76, 77, 92, 142, 146, 160, 188, 282
+	92 -> 7, 19, 43, 49, 53, 56, 61, 62, 87, 90, 91, 94, 148, 188, 207, 257, 289
+	93 -> 31, 112, 114, 194, 203, 207, 257, 289
+	94 -> 45, 55, 69, 70, 162, 163, 164, 266
+	95 -> 1, 19, 34, 90, 96, 146, 191
+	96 -> 12, 44, 89, 193, 282
+	97 -> 42, 120, 124, 221
+	98 -> 69, 70, 100, 101, 102, 274, 276
+	99 -> 3, 26, 33, 95, 142, 184, 189, 258
+	100 -> 221, 222, 223, 225, 228, 230, 231, 232
+	101 -> 7, 11, 16, 26, 106, 183, 203, 211, 238, 253, 266
+	102 -> 141, 168, 186, 201, 208, 238, 251, 260, 263, 310, 311, 312
+	103 -> 41, 77, 93, 112, 115, 133, 168, 186, 209, 267
+	104 -> 15, 16, 33, 56, 141, 190, 220, 251, 253, 257, 260
+	105 -> 49, 55, 56, 133, 190, 307, 310
+	106 -> 15, 77, 105, 141, 155, 168, 208, 220, 251, 267, 311
+	107 -> 121, 210
+	108 -> 20, 51, 52, 171, 186, 246
+	109 -> 4, 8, 51, 52, 99, 149, 153, 154, 309
+	110 -> 231, 259, 291
+	111 -> 156, 288
+	112 -> 287
+	113 -> 231, 259, 291
+	114 -> 287
+	116 -> 45, 55, 69, 70, 162, 163, 164, 266
+	117 -> 42, 48, 58, 95, 96, 119, 120, 124, 133, 216, 221
+	118 -> 53, 59, 90, 124, 182, 195, 247, 290, 291
+	119 -> 4, 8, 9, 10, 54, 118, 161, 170
+	120 -> 38, 40, 60, 79, 81, 82, 83, 84, 85, 97, 99, 116, 117, 119, 127, 148, 205, 211, 232, 255, 256, 281
+	121 -> 127
+	122 -> 1
+	124 -> 38, 40, 60, 79, 82, 83, 84, 85, 97, 99, 107, 116, 117, 127, 148, 205, 211, 232, 255, 256, 281
+	125 -> 60, 97, 117, 212, 248, 306
+	126 -> 60, 97, 117, 212, 248, 306
+	128 -> 14, 167, 185, 270
+	129 -> 14, 167, 185, 270
+	130 -> 14, 167, 185, 270
+	131 -> 14, 167, 185, 270
+	132 -> 214, 268
+	134 -> 197
+	135 -> 122, 141, 146, 155, 191, 215, 233, 311, 312
+	136 -> 137, 178, 284
+	138 -> 20, 51, 52, 171, 186, 246
+	139 -> 66, 82, 108, 125, 138, 213
+	140 -> 66, 82, 108, 125, 138, 213
+	142 -> 1, 19, 34, 90, 96, 146, 191
+	144 -> 24, 29, 50, 60, 71, 75, 98, 111, 120, 132, 158, 183, 249, 275, 279
+	145 -> 24, 29, 50, 60, 71, 75, 98, 111, 120, 132, 158, 183, 249, 275, 279
+	146 -> 1, 107, 194, 247, 282
+	147 -> 45, 55, 69, 70, 162, 163, 164, 266
+	148 -> 72, 287, 289
+	149 -> 176
+	150 -> 4, 8, 51, 52, 99, 149, 153, 154, 309
+	151 -> 32, 63, 67, 83, 109, 126, 139, 150
+	152 -> 32, 63, 67, 83, 109, 126, 139, 150
+	153 -> 217
+	154 -> 3, 26, 33, 95, 142, 184, 189, 258
+	155 -> 34, 90, 93, 115, 244, 247, 283
+	156 -> 37, 123, 266, 283, 285
+	157 -> 35, 36, 156, 179
+	158 -> 156, 288
+	159 -> 41, 107, 112, 115, 180, 206, 236, 305
+	160 -> 221, 222, 223, 225, 228, 230, 231, 232
+	161 -> 224, 226, 227, 229
+	162 -> 55, 56, 190, 305
+	163 -> 78, 236
+	164 -> 46, 60, 66, 67, 68, 115, 124, 164, 216, 218, 230, 305
+	165 -> 2, 6, 180, 210, 283, 285
+	167 -> 183, 184, 188, 233
+	170 -> 173
+	171 -> 173
+	172 -> 173
+	173 -> 127, 180, 210
+	174 -> 169
+	175 -> 178
+	176 -> 175
+	177 -> 169, 175, 271, 284
+	179 -> 180
+	180 -> 35, 36, 156, 179
+	181 -> 54, 71, 79, 91, 92, 110, 222, 255, 256, 292
+	182 -> 242, 287
+	183 -> 195
+	187 -> 5, 128, 243, 286
+	189 -> 31, 89, 148, 236
+	190 -> 1, 54, 182, 194
+	191 -> 12, 44, 89, 193, 282
+	192 -> 5, 128, 243, 286
+	196 -> 30, 47, 113, 224, 292
+	197 -> 176
+	198 -> 17, 27, 64, 65, 98, 101, 172, 197, 200, 202
+	199 -> 13, 28, 30, 32, 63, 68, 84, 144, 198, 275, 280
+	200 -> 7, 11, 16, 26, 106, 183, 203, 211, 238, 253, 266
+	201 -> 166, 264, 278
+	202 -> 141, 168, 186, 201, 208, 238, 251, 260, 263, 310, 311, 312
+	204 -> 13, 22, 24, 40, 48, 94, 116, 145, 147, 199
+	205 -> 225
+	206 -> 2
+	207 -> 287
+	208 -> 49, 55, 56, 133, 190, 307, 310
+	209 -> 31, 112, 114, 194, 203, 207, 257, 289
+	210 -> 2, 35, 36, 156, 179
+	211 -> 46, 54, 86, 216, 226, 259
+	212 -> 31, 71, 148, 182, 211, 227
+	213 -> 31, 71, 148, 182, 211, 227
+	214 -> 143, 185, 218, 244
+	216 -> 38, 40, 59, 60, 79, 82, 83, 84, 85, 97, 99, 116, 117, 127, 148, 205, 211, 232, 237, 255, 256, 281
+	217 -> 266
+	220 -> 215
+	221 -> 293
+	222 -> 294
+	223 -> 295
+	224 -> 296
+	225 -> 297
+	226 -> 298
+	227 -> 114, 299
+	228 -> 300
+	229 -> 37, 301
+	230 -> 302
+	231 -> 111, 290, 303
+	232 -> 39, 304
+	234 -> 28, 42, 43, 74, 108, 109, 110
+	235 -> 18, 23, 25, 27, 38, 39, 76, 77, 92, 110, 113, 142, 146, 160, 188, 223, 234, 254, 268, 282
+	237 -> 163
+	239 -> 6, 196
+	240 -> 6, 196
+	241 -> 6, 196
+	242 -> 78, 114, 217
+	245 -> 62, 75, 89, 155, 264, 285
+	246 -> 3, 18, 19, 58, 76, 87, 88, 96, 191, 195, 278, 312
+	247 -> 72, 112, 242, 289
+	248 -> 22, 50, 85, 86, 140, 151, 245, 265
+	249 -> 22, 50, 85, 86, 140, 151, 245, 265
+	250 -> 125, 126, 139, 140, 144, 145, 151, 152, 157, 170, 171, 172, 199, 204, 212, 213, 248, 249, 262, 279, 280, 306
+	252 -> 149
+	253 -> 15, 77, 105, 141, 155, 168, 208, 220, 251, 267, 311
+	254 -> 54, 71, 91, 92, 110, 222, 292
+	255 -> 18, 23, 27, 76, 77, 92, 142, 146, 160, 188, 282
+	256 -> 7, 19, 43, 49, 53, 56, 61, 62, 87, 90, 91, 94, 148, 188, 207, 257, 289
+	258 -> 193, 290, 291
+	259 -> 30, 47, 113, 196, 229, 292
+	260 -> 41, 77, 93, 112, 115, 133, 168, 186, 209, 267
+	261 -> 7, 19, 25, 38, 39, 43, 49, 53, 56, 61, 62, 87, 90, 91, 94, 110, 113, 148, 188, 207, 223, 234, 254, 257, 268, 289
+	262 -> 6
+	263 -> 15, 16, 33, 56, 141, 190, 220, 251, 253, 257, 260
+	265 -> 48, 58, 95, 96, 119, 133, 216
+	266 -> 123, 179
+	267 -> 207
+	268 -> 143, 166, 218, 258
+	270 -> 205
+	272 -> 5, 128, 243, 286
+	273 -> 12, 44, 93, 114, 122, 159, 209
+	274 -> 49, 104, 162, 215, 236, 307
+	275 -> 69, 70, 100, 101, 102, 274, 276
+	276 -> 11, 45, 55, 88, 103, 105, 166, 184, 190, 203, 214, 257, 262, 273
+	277 -> 5, 128, 243, 286
+	279 -> 23, 29, 47, 58, 71, 110, 132, 152, 204, 281
+	280 -> 23, 29, 47, 58, 71, 110, 132, 152, 204, 281
+	281 -> 46, 60, 66, 67, 68, 124, 164, 216, 230
+	282 -> 121, 210
+	283 -> 2, 6, 35, 36, 123, 156, 179
+	285 -> 6, 35, 36, 156, 179, 196
+	287 -> 123
+	288 -> 36, 210, 285
+	289 -> 287
+	292 -> 231, 259, 291
+	293 -> 42, 120, 124, 221, 222, 223, 225, 228, 230, 231, 232
+	294 -> 54, 71, 91, 92, 110, 221, 222, 223, 225, 228, 230, 231, 232, 292
+	295 -> 25, 38, 39, 110, 113, 221, 222, 223, 225, 228, 230, 231, 232, 234, 254, 268
+	296 -> 224, 226, 227, 229
+	297 -> 221, 222, 223, 225, 228, 230, 231, 232
+	298 -> 46, 54, 86, 216, 224, 226, 227, 229, 259
+	299 -> 31, 71, 148, 182, 211, 224, 226, 227, 229
+	300 -> 57, 73, 80, 181, 221, 222, 223, 225, 228, 230, 231, 232, 235, 261
+	301 -> 196, 224, 226, 227, 229
+	302 -> 46, 60, 66, 67, 68, 124, 164, 216, 221, 222, 223, 225, 228, 230, 231, 232
+	303 -> 221, 222, 223, 225, 228, 230, 231, 232, 259, 291
+	304 -> 38, 40, 60, 79, 82, 83, 84, 85, 97, 99, 116, 117, 127, 148, 205, 211, 221, 222, 223, 225, 228, 230, 231, 232, 255, 256, 281
+	306 -> 46, 58, 164
+	307 -> 206
+	309 -> 12, 23, 25, 61, 103, 106, 107, 135, 203, 220, 262, 273, 310, 311
+	311 -> 137, 310, 312
+}
