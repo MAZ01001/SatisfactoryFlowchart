@@ -1,0 +1,2091 @@
+{
+	"Descriptions": {
+		"Products": [
+			["Actual Snow","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Snow_256.png","It's snow. Not the nice, thick, crunchy kind, though... more the disgustingly wet, slushy kind... Guess we can make stuff from it."],
+			["Adaptive Control Unit","./FactoryGame/Content/FactoryGame/Resource/Parts/ControlSystem/UI/IconDesc_SpelevatorPart_5_256.png","Project Part #5. Ship via the Space Elevator to complete phases of Project Assembly."],
+			["AI Expansion Server","./FactoryGame/Content/FactoryGame/Resource/Parts/AIExpansion/_UI/IconDesc_AIExpension_256.png","Project Part #12. Ship via the Space Elevator to complete phases of Project Assembly.\nPower Usage: 1500-2500 MW (2000 MW average).\n\nGrowth is the metric by which we measure success."],
+			["AI Limiter","./FactoryGame/Content/FactoryGame/Resource/Parts/AIlimiter/UI/IconDesc_AILimiter_256.png","Controls AIs and keeps them from evolving in malicious ways. Super advanced electronics."],
+			["Alclad Aluminum Sheet","./FactoryGame/Content/FactoryGame/Resource/Parts/AluminumPlate/UI/IconDesc_AluminiumSheet_256.png","Used to make products that require high heat conduction or a high specific strength. Thin, lightweight, and highly durable."],
+			["Alien DNA Capsule","./FactoryGame/Content/FactoryGame/Resource/Parts/AlienDNACapsule/UI/IconDesc_AlienDNA_256.png","Translates organic chemicals into readable alien genetic information.\nUsed for researching alien organisms.\n\nGo the extra kilometer! Knowledge is power, and power is just efficiency with fewer steps. Depositing Alien DNA Capsules in the AWESOME Sink provides FICSIT with knowledge, and pioneers with Coupons."],
+			["Alien Protein","./FactoryGame/Content/FactoryGame/Resource/Parts/AlienProtein/UI/IconDesc_AlienProtein_256.png","Ground-up Alien Remains in a neat little package.\nUsed for medical purposes and to research alien organisms."],
+			["Alumina Solution","./FactoryGame/Content/FactoryGame/Resource/Parts/Alumina/UI/LiquidAlumina_Pipe_256.png","Dissolved Alumina, extracted from Bauxite. Can be further refined into Aluminum Scrap for Aluminum Ingot production."],
+			["Aluminum Casing","./FactoryGame/Content/FactoryGame/Resource/Parts/AluminumCasing/UI/IconDesc_AluminiumCasing_256.png","A versatile container cast from Aluminum Ingots."],
+			["Aluminum Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/AluminumIngot/UI/IconDesc_AluminiumIngot_256.png","Smelted from Aluminum Scrap, which is refined from Alumina Solution.\nUsed to produce specialized aluminum-based parts."],
+			["Aluminum Scrap","./FactoryGame/Content/FactoryGame/Resource/Parts/AluminumScrap/UI/IconDesc_AluminiumScrap_256.png","Refined from Alumina. Can be smelted into Aluminum Ingots for industrial usage."],
+			["Assembly Director System","./FactoryGame/Content/FactoryGame/Resource/Parts/AssemblyControlUnit/UI/IconDesc_AssemblyDirectorSystem_256.png","Project Part #6. Ship via the Space Elevator to complete phases of Project Assembly.\n\nThis extremely fast and precise computing system is specifically designed to direct the Project Assembly: Assembly Phase."],
+			["Automated Wiring","./FactoryGame/Content/FactoryGame/Resource/Parts/AutomatedWiring/UI/SpelevatorPart_3_256.png","Project Part #3. Ship via the Space Elevator to complete phases of Project Assembly."],
+			["Bacon Agaric","./FactoryGame/Content/FactoryGame/Resource/Environment/DesertShroom/UI/Mushroom_256.png","Consumable\n\nEat to restore 2 health segments."],
+			["Ballistic Warp Drive","./FactoryGame/Content/FactoryGame/Resource/Parts/BallisticWarpdrive/UI/IconDesc_BallisticWarpDrive_256.png","Project Part #11. Ship via the Space Elevator to complete phases of Project Assembly.\nPower Usage: 1000-2000 MW (1500 MW average).\n\nA large amount of force is required for the Warp Drives to activate, so sticking them to rockets was the logical next step. Additionally, results improved immensely when the observers were further removed from the Warp Drives upon activation."],
+			["Battery","./FactoryGame/Content/FactoryGame/Resource/Parts/Battery/UI/IconDesc_Battery_256.png","Primarily used as fuel for Drones and vehicles."],
+			["Bauxite","./FactoryGame/Content/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_Bauxite_256.png","Used to produce Alumina, which can be further refined into the Aluminum Scrap required to produce Aluminum Ingots."],
+			["Beryl Nut","./FactoryGame/Content/FactoryGame/Resource/Environment/Nut/UI/Nut_256_New.png","Consumable\n\nEat to restore half a health segment."],
+			["Biochemical Sculptor","./FactoryGame/Content/FactoryGame/Resource/Parts/BiochemicalSculptor/UI/IconDesc_BiochemicalSculptor_256.png","Project Part #10. Ship via the Space Elevator to complete phases of Project Assembly.\n\nYears ahead of the competition, this top-of-the-line 3D printer is used for the production of synthetic biological resources."],
+			["Biomass","./FactoryGame/Content/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Biomass_Final_256.png","Primarily used as fuel.\nBiomass Burners and vehicles can use it for power.\nBiomass is much more energy-efficient than raw biological matter."],
+			["Black Powder","./FactoryGame/Content/FactoryGame/Resource/Parts/GunPowder/UI/IconDesc_Gunpowder_256.png","An explosive powder that is commonly used to produce simple explosives."],
+			["Blade Runners","./FactoryGame/Content/FactoryGame/Equipment/JumpingStilts/UI/IconDesc_SprintingStilts_256.png","An exoskeleton for the lower legs that assists movement, allowing pioneers to sprint faster and jump higher.\nAlso dampens the impact of landing."],
+			["Blue FICSMAS Ornament","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_XmasBall_Blue_256.png","Again, used for making FICSMAS Decorations."],
+			["Blue Power Slug","./FactoryGame/Content/FactoryGame/Resource/Environment/Crystal/UI/PowerSlugGreen_256.png","A strange slug radiating an unknown weak power."],
+			["Cable","./FactoryGame/Content/FactoryGame/Resource/Parts/Cable/UI/IconDesc_Cables_256.png","Used for crafting.\nPrimarily used to build Power Lines."],
+			["Candy Cane","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_CanePart_256.png","A delicious Candy Cane to be enjoyed during the FICSMAS Holidays. \n*Disclaimer: Not for consumption..."],
+			["Candy Cane Basher","./FactoryGame/Content/FactoryGame/Resource/Equipment/StunSpear/UI/IconDesc_CaneEquipment_256.png","A heavy, delicious self-defense weapon for use at melee range."],
+			["Caterium Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/GoldIngot/UI/IconDesc_CateriumIngot_256.png","Smelted from Caterium Ore. Primarily used for advanced electronics."],
+			["Caterium Ore","./FactoryGame/Content/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_CateriumOre_256.png","Smelted into Caterium Ingots, which are primarily used for advanced electronics."],
+			["Chainsaw","./FactoryGame/Content/FactoryGame/Equipment/Chainsaw/UI/IconDesc_Chainsaw_256.png","Clears an area of flora that is too difficult to remove by hand.\n\nFuel: Biofuel"],
+			["Circuit Board","./FactoryGame/Content/FactoryGame/Resource/Parts/CircuitBoard/UI/IconDesc_CircuitBoard_256.png","Advanced electronics that have a plethora of different uses."],
+			["Cluster Nobelisk","./FactoryGame/Content/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Cluster_256.png","Detonates into multiple smaller explosions. Practical for clearing out large areas of vegetation and other inconveniences."],
+			["Coal","./FactoryGame/Content/FactoryGame/Resource/RawResources/Coal/UI/IconDesc_CoalOre_256.png","Mainly used as fuel for vehicles & Coal-Powered Generators, or in Steel production."],
+			["Compacted Coal","./FactoryGame/Content/FactoryGame/Resource/Parts/CompactedCoal/UI/IconDesc_CompactedCoal_256.png","A much more efficient alternative to Coal. Used as fuel for vehicles and Coal-Powered Generators."],
+			["Computer","./FactoryGame/Content/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_256.png","A complex logic machine that is used to control advanced behavior in other machines."],
+			["Concrete","./FactoryGame/Content/FactoryGame/Resource/Parts/Cement/UI/IconDesc_Concrete_256.png","Used for building.\nGood for stable Foundations."],
+			["Cooling System","./FactoryGame/Content/FactoryGame/Resource/Parts/CoolingSystem/UI/IconDesc_CoolingSystem_256.png","Keeps advanced parts and buildings from exceeding efficient temperature levels."],
+			["Copper FICSMAS Ornament","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_XmasBall_Yellow_256.png","Still used for making FICSMAS Decorations."],
+			["Copper Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/CopperIngot/UI/IconDesc_CopperIngot_256.png","Used for crafting the most basic parts."],
+			["Copper Ore","./FactoryGame/Content/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_copper_new_256.png","Used for crafting.\nA basic resource primarily used for electricity."],
+			["Copper Powder","./FactoryGame/Content/FactoryGame/Resource/Parts/CopperDust/UI/IconDesc_CopperDust_256.png","Ground-up Copper Ingots.\nThe high natural density of Copper, combined with the granularity of the powder, makes this part perfect for producing Nuclear Pasta in the Particle Accelerator."],
+			["Copper Sheet","./FactoryGame/Content/FactoryGame/Resource/Parts/CopperSheet/UI/IconDesc_CopperSheet_256.png","Used for crafting.\nPrimarily used for Pipelines due to its high corrosion resistance."],
+			["Crude Oil","./FactoryGame/Content/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_256.png","Refined into all kinds of Oil-based resources, like Fuel and Plastic."],
+			["Crystal Oscillator","./FactoryGame/Content/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_256.png","An electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency."],
+			["Dark Matter Crystal","./FactoryGame/Content/FactoryGame/Resource/Parts/TimeCrystal/UI/IconDesc_TimeCrystal_256.png","Concentrated Dark Matter Residue that is isolated within a crystalline vessel. This form of containment allows for utilising Dark Matter reliably in other production processes.\n\nPower Usage: 500-1500 MW (1000 MW average)."],
+			["Dark Matter Residue","./FactoryGame/Content/FactoryGame/Resource/Parts/DarkEnergy/UI/IconDesc_DarkEnergy_256.png","Produced as a by-product of Quantum Encoding processes and alternatively generated in the Converter.\n\nVarious fields of science are still debating the nature and properties of Dark Matter. Meanwhile, FICSIT has found several applications for it in space-time manipulation."],
+			["Diamonds","./FactoryGame/Content/FactoryGame/Resource/Parts/Diamond/UI/IconDesc_Diamonds_256.png","Synthetic Diamonds produced by exposing Coal to extreme heat and pressure.\n\nUsed in the production of Time Crystals and Dark Matter Crystals.\n\nPower Usage: 250-750 MW (500 MW average)."],
+			["Dissolved Silica","./FactoryGame/Content/FactoryGame/Resource/Parts/DissolvedSilica/UI/IconDesc_DissolvedSilica_256.png","Silica dissolved in Water, produced as part of the alternative refinement of Raw Quartz.\nThe Silica can be extracted from the Water to complete the refinement process."],
+			["Electromagnetic Control Rod","./FactoryGame/Content/FactoryGame/Resource/Parts/ElectromagneticControlRod/UI/IconDesc_ElectromagneticControlRod_256.png","Regulates power output via electromagnetism."],
+			["Empty Canister","./FactoryGame/Content/FactoryGame/Resource/Parts/FluidCanister/UI/IconDesc_EmptyCannister_256.png","Used to package fluids for transportation."],
+			["Empty Fluid Tank","./FactoryGame/Content/FactoryGame/Resource/Parts/GasTank/UI/IconDesc_PressureTank_256.png","Used to package gases and volatile liquids for transportation."],
+			["Encased Industrial Beam","./FactoryGame/Content/FactoryGame/Resource/Parts/SteelPlateReinforced/UI/IconDesc_EncasedSteelBeam_256.png","Simultaneously utilizes the compressive strength of concrete and the tensile strength of steel.\nMostly used as a stable base for constructing buildings."],
+			["Encased Plutonium Cell","./FactoryGame/Content/FactoryGame/Resource/Parts/PlutoniumCell/UI/IconDesc_EncasedPlutoniumCell_256.png","Plutonium Pellets encased in concrete.\nUsed to produce Plutonium Fuel Rods for Nuclear Power production.\n\nCaution: Moderately Radioactive."],
+			["Encased Uranium Cell","./FactoryGame/Content/FactoryGame/Resource/Parts/UraniumCell/UI/IconDesc_NuclearCell_256.png","Used to produce Uranium Fuel Rods for Nuclear Power production. Made from Uranium Ore.\n\nCaution: Mildly Radioactive."],
+			["Excited Photonic Matter","./FactoryGame/Content/FactoryGame/Resource/Parts/QuantumEnergy/IconDesc_QuantumEnergy_256.png","Excited Photonic Matter is essential for all production processes in the Quantum Encoder.\n\nFormed in the Converter by inducing intense photon interactions through exposure to SAM in a high-energy environment."],
+			["Explosive Rebar","./FactoryGame/Content/FactoryGame/Equipment/RebarGun/UI/IconDesc_ExpRebar_256.png","Explodes on impact, dealing heavy damage."],
+			["Fabric","./FactoryGame/Content/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Fabric_256.png","Used to craft equipment.\nFlexible but durable fabric."],
+			["Factory Cart™","./FactoryGame/Content/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.png","The one and only FICSIT Factory Cart™.\nNow with special FICSIT-Foundation-only Grip Wheels, for an even smoother and faster factory floor experience!"],
+			["Fancy Fireworks","./FactoryGame/Content/FactoryGame/Events/Christmas/Fireworks/UI/IconDesc_Rocket02_256.png","Fireworks are produced from random ingredients. Primarily used for having a good time."],
+			["Ficsite Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/FicsiteIngot/UI/IconDesc_FicsiteIngot_256.png","Produced by reconstructing other metals on a molecular level using Strange Alien Matter.\n\nSynthesized by FICSIT to be the perfect construction material, and used in the most high-end processes."],
+			["Ficsite Trigon","./FactoryGame/Content/FactoryGame/Resource/Parts/FicsiteMesh/UI/IconDesc_FicsiteMesh_256.png","The Ficsite Trigon, made from Ficsite Ingots, is perfectly shaped for all construction challenges. It's performance is so exceptional, it basically solved structural engineering."],
+			["FICSMAS Bow","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Bow_256.png","A fancy Bow. Maybe someone could wear this? You certainly can't! What you can do is make parts and decorations from it. Probably."],
+			["FICSMAS Decoration","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Wreath_256.png","A decoration used to make decorations. Its use cases are questionable."],
+			["FICSMAS Gift","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Gift_256.png","Special FICSMAS buildings and parts can be obtained and produced from this FICSIT Holiday present.\n\n*Watch the sky for deliveries from orbit!"],
+			["FICSMAS Ornament Bundle","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Balls_256.png","All the FICSMAS Ornaments smashed together to make even more FICSMAS Decorations!"],
+			["FICSMAS Tree Branch","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Branch_256.png","A special Tree Branch used to produce parts and buildings during the FICSMAS Event."],
+			["FICSMAS Wonder Star","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Star_256.png","This special FICSMAS Star signifies FICSIT's productivity all across the universe. It also signifies the fact that you have nearly completed the Holiday Event, so it's time to get back to work."],
+			["Ficsonium","./FactoryGame/Content/FactoryGame/Resource/Parts/Ficsonium/UI/IconDesc_FicsoniumCell_256.png","Usage and production of this material is strictly prohibited. On Earth, that is. There are no rules in space, only efficiency. \n\nPower Usage: 500-1500 MW (1000 MW average)."],
+			["Ficsonium Fuel Rod","./FactoryGame/Content/FactoryGame/Resource/Parts/FicsoniumFuelRod/UI/IconDesc_FicsoniumFuelRod_256.png","Used as fuel for Nuclear Power Plants.\nThe power source that put FICSIT on the map. Literally. The crater is still there.\n\nCaution: Moderately Radioactive."],
+			["Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/Fuel/UI/IconDesc_LiquidFuel_Pipe_256.png","Can be used as-is to generate power, or packaged to be used as fuel for vehicles or the Jetpack."],
+			["Fused Modular Frame","./FactoryGame/Content/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_256.png","A corrosion-resistant, nitride-hardened, highly-robust-yet-lightweight modular frame."],
+			["Gas Filter","./FactoryGame/Content/FactoryGame/Resource/Parts/Filter/UI/IconDesc_GasMaskFilter_256.png","Filters out toxins and pollutants from the air when used with a Gas Mask."],
+			["Gas Mask","./FactoryGame/Content/FactoryGame/Resource/Equipment/GasMask/UI/GasMask_256.png","Allows pioneers to breathe normally in toxic gas-filled areas.\nConsumes Gas Filters from the pioneer's inventory when in use."],
+			["Gas Nobelisk","./FactoryGame/Content/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Gas_256.png","Creates a deadly gas cloud instead of a regular explosion."],
+			["Golden Factory Cart™","./FactoryGame/Content/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCartGold_256.png","The one and only Golden FICSIT Factory Cart™\n\nYou have now officially ascended. \nGo forth now, Master of Spaghetti, God of the Factory, Sinker of Cups, Employee of the Planet... travel in STYLE!"],
+			["Hatcher Remains","./FactoryGame/Content/FactoryGame/Resource/Environment/AnimalParts/UI/IconDesc_HatcherPart_256.png","The shell-like remains of an alien... thing.\nUsed for MAM research."],
+			["Hazmat Suit","./FactoryGame/Content/FactoryGame/Resource/Parts/HazmatSuit/UI/IconDesc_HazmatSuit_256.png","Shields pioneers from the adverse effects of radiation. \nConsumes Iodine-Infused Filters from the pioneer's inventory when worn in radioactive areas."],
+			["Heat Sink","./FactoryGame/Content/FactoryGame/Resource/Parts/HeatSink/UI/IconDesc_Heatsink_256.png","Used to dissipate heat faster."],
+			["Heavy Modular Frame","./FactoryGame/Content/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_256.png","A more robust multipurpose frame."],
+			["Heavy Oil Residue","./FactoryGame/Content/FactoryGame/Resource/Parts/HeavyOilResidue/UI/IconDesc_LiquidHeavyOilResidue_Pipe_256.png","A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke."],
+			["High-Speed Connector","./FactoryGame/Content/FactoryGame/Resource/Parts/HighSpeedConnector/UI/IconDesc_HighSpeedConnector_256.png","Connects multiple cables and wires in a very efficient way. Uses a standard pattern, so it has many varied applications."],
+			["Hog Remains","./FactoryGame/Content/FactoryGame/Resource/Parts/AnimalParts/UI/IconDesc_HogPart_256.png","The carapace of an alien Hog creature.\nUsed for MAM research."],
+			["Homing Rifle Ammo","./FactoryGame/Content/FactoryGame/Equipment/Rifle/UI/IconDesc_HomingRifle_256.png","The bullet guidance system built into this ammunition allows it to accurately hit any target within the reticle area.\nEspecially useful when dealing with agile threats, or for pioneers who can't be bothered to aim properly."],
+			["Hoverpack","./FactoryGame/Content/FactoryGame/Equipment/HoverPack/UI/IconDesc_Hoverpack_256.png","Power Consumption: 100 MW\n\nAllows pioneers to move vertically and hover in mid-air to improve building efficiency and factory traversal. Wirelessly connects to nearby power connections, such as Power Poles and Buildings, for power consumption.\n\nSlow-Fall: Hold {PlayerMovement_Jump} after losing connection mid-air.\nDisable Hoverpack: Double tap {PlayerMovement_Crouch} while hovering."],
+			["Iodine-Infused Filter","./FactoryGame/Content/FactoryGame/Resource/Parts/IodineInfusedFilter/UI/IconDesc_HazmatFilter_256.png","Absorbs radioactive particles when used with the Hazmat Suit."],
+			["Ionized Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/IonizedFuel/UI/IconDesc_IonizedFuel_256.png","Fuel that has been ionized, allowing it to deliver incredible output.\nCan be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack."],
+			["Iron FICSMAS Ornament","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_XmasBall_Silver_256.png","A super special- Nope! Still just used for making FICSMAS Decorations."],
+			["Iron Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/IronIngot/UI/IconDesc_IronIngot_256.png","Used for crafting the most basic parts."],
+			["Iron Ore","./FactoryGame/Content/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_iron_new_256.png","Used for crafting.\nThe most essential basic resource."],
+			["Iron Plate","./FactoryGame/Content/FactoryGame/Resource/Parts/IronPlate/UI/IconDesc_IronPlates_256.png","Used for crafting.\nOne of the most basic parts."],
+			["Iron Rebar","./FactoryGame/Content/FactoryGame/Equipment/RebarGun/UI/IconDesc_Rebar_256.png","Can be shot using the Rebar Gun for self-defense purposes."],
+			["Iron Rod","./FactoryGame/Content/FactoryGame/Resource/Parts/IronRod/UI/IconDesc_IronRods_256.png","Used for crafting.\nOne of the most basic parts."],
+			["Jetpack","./FactoryGame/Content/FactoryGame/Resource/Equipment/JetPack/UI/Jetpack_256.png","Allows pioneers to travel through the air with increased control.\n\nFuel is automatically consumed from the pioneer's inventory to refill the Jetpack while on the ground.\nDifferent fuel types can be used and provide different levels of Jetpack efficiency. The preferred fuel type will be used if available, and can be set in the equipment inventory."],
+			["Leaves","./FactoryGame/Content/FactoryGame/Resource/Parts/GenericBiomass/IconDesc_Leaves_256.png","Primarily used as fuel.\nBiomass Burners and vehicles can use Leaves for power."],
+			["Limestone","./FactoryGame/Content/FactoryGame/Resource/RawResources/Stone/UI/Stone_256.png","Used for crafting.\nA basic resource primarily used for stable Foundations."],
+			["Liquid Biofuel","./FactoryGame/Content/FactoryGame/Resource/Parts/BioFuel/UI/IconDesc_LiquidBiofuel_Pipe_256.png","Liquid Biofuel can be used as-is to generate power, or packaged to be used as fuel for vehicles."],
+			["Magnetic Field Generator","./FactoryGame/Content/FactoryGame/Resource/Parts/MagneticFieldGenerator/UI/IconDesc_MagneticFieldGenerator_256.png","Project Part #7. Ship via the Space Elevator to complete phases of Project Assembly.\n\nThese modular generators use superconducting magnets and vast amounts of electricity to produce a powerful and easily expandable magnetic field."],
+			["Medicinal Inhaler","./FactoryGame/Content/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.png","Fully restores health when used.\n\nThe FICSIT Medicinal Inhaler can be produced from a variety of different ingredients."],
+			["Mercer Sphere","./FactoryGame/Content/FactoryGame/Prototype/WAT/UI/Wat_2_256.png","A weird alien phenomenon. While the sphere appears liquid, it behaves like a solid and does not have any detectable mass. It seems to somehow interact with and have awareness of its environment."],
+			["Modular Engine","./FactoryGame/Content/FactoryGame/Resource/Parts/ModularEngine/UI/IconDesc_SpelevatorPart_4_256.png","Project Part #4. Ship via the Space Elevator to complete phases of Project Assembly."],
+			["Modular Frame","./FactoryGame/Content/FactoryGame/Resource/Parts/ModularFrame/UI/IconDesc_ModularFrame_256.png","Used for crafting.\nA multipurpose building block."],
+			["Motor","./FactoryGame/Content/FactoryGame/Resource/Parts/Motor/UI/IconDesc_Engine_256.png","Creates a mechanical force that is used to move things from machines to vehicles."],
+			["Mycelia","./FactoryGame/Content/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.png","Used for crafting.\nBiomass Burners and vehicles can also use Mycelia for power."],
+			["Neural-Quantum Processor","./FactoryGame/Content/FactoryGame/Resource/Parts/TemporalProcessor/UI/IconDesc_TemporalProcessor_256.png","The Neural-Quantum Processor utilizes a combination of neural network architecture and quantum computing techniques to achieve unprecedented performance. This technology has enabled some of FICSIT's biggest advancements in artificial intelligence and relativistic engineering."],
+			["Nitric Acid","./FactoryGame/Content/FactoryGame/Resource/Parts/NitricAcid/UI/IconDesc_NitricAcid_256.png","Produced when Nitrogen Gas reacts with Water. Its high corrosiveness and oxidizing properties make it an excellent choice for refinement and fuel production processes."],
+			["Nitrogen Gas","./FactoryGame/Content/FactoryGame/Resource/Parts/PackagedNitrogen/UI/IconDesc_NitrogenGas_256.png","Has a variety of uses, including metallurgy, cooling, and Nitric Acid production. On MASSAGE-2 (AB)b, it can be extracted from underground gas wells."],
+			["Nobelisk","./FactoryGame/Content/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Explosive_256.png","A simple explosive, useful for clearing boulders, vegetation, and other obstacles."],
+			["Nobelisk Detonator","./FactoryGame/Content/FactoryGame/Resource/Equipment/NobeliskDetonator/UI/Detonator_256.png","A remote-control device used to handle and detonate Nobelisks."],
+			["Non-Fissile Uranium","./FactoryGame/Content/FactoryGame/Resource/Parts/Non-FissibleUranium/UI/IconDesc_NonFissileUranium_256.png","The Uranium-238 isotope is non-fissile, meaning it cannot be used for nuclear fission. It can, however, be converted into fissile Plutonium in the Particle Accelerator.\n\nCaution: Mildly Radioactive."],
+			["Nuclear Pasta","./FactoryGame/Content/FactoryGame/Resource/Parts/NuclearPasta/UI/IconDesc_NuclearPasta_256.png","Project Part #9. Ship via the Space Elevator to complete phases of Project Assembly.\nPower Usage: 500-1500 MW (1000 MW average).\n\nNuclear Pasta is extremely dense degenerate matter, formed when extreme pressure forces protons and electrons together into neutrons. It is theorized to exist naturally within the crust of neutron stars."],
+			["Nuke Nobelisk","./FactoryGame/Content/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Nuke_256.png","Uses a nuclear fission reaction to generate a massive explosion.\nWARNING: Ensure all FICSIT property is clear of the blast zone before detonation.\n"],
+			["Object Scanner","./FactoryGame/Content/FactoryGame/Resource/Equipment/GemstoneScanner/UI/ObjectScanner_256.png","Scans the area for a selected item. Beeps at a rate proportional to proximity and direction."],
+			["Packaged Alumina Solution","./FactoryGame/Content/FactoryGame/Resource/Parts/Alumina/UI/IconDesc_PackagedAluminaSolution_256.png","Alumina Solution, packaged for alternative transport."],
+			["Packaged Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/Fuel/UI/IconDesc_Fuel_256.png","Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack."],
+			["Packaged Heavy Oil Residue","./FactoryGame/Content/FactoryGame/Resource/RawResources/CrudeOil/UI/OilResidue_256.png","Heavy Oil Residue, packaged for alternative transport. Can be used as fuel for vehicles."],
+			["Packaged Ionized Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/IonizedFuel/UI/IconDesc_IonizedRocketFuel_256.png","Ionized Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack."],
+			["Packaged Liquid Biofuel","./FactoryGame/Content/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_LiquidBiofuel_256.png","Liquid Biofuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack."],
+			["Packaged Nitric Acid","./FactoryGame/Content/FactoryGame/Resource/Parts/NitricAcid/UI/IconDesc_PackagedNitricAcid_256.png","Nitric Acid, packaged for alternative transport."],
+			["Packaged Nitrogen Gas","./FactoryGame/Content/FactoryGame/Resource/Parts/PackagedNitrogen/UI/IconDesc_PackagedNitrogen_256.png","Nitrogen Gas, packaged for alternative transport."],
+			["Packaged Oil","./FactoryGame/Content/FactoryGame/Resource/RawResources/CrudeOil/UI/Oil_256.png","Crude Oil, packaged for alternative transport. Can be used as fuel for vehicles."],
+			["Packaged Rocket Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/RocketFuel/UI/IconDesc_PackagedRocketFuel_256.png","Rocket Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack."],
+			["Packaged Sulfuric Acid","./FactoryGame/Content/FactoryGame/Resource/Parts/SulfuricAcid/UI/IconDesc_PckagedSulphuricAcid_256.png","Sulfuric Acid, packaged for alternative transport."],
+			["Packaged Turbofuel","./FactoryGame/Content/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_TurboFuel_256.png","Turbofuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack."],
+			["Packaged Water","./FactoryGame/Content/FactoryGame/Resource/Parts/PackagedWater/UI/IconDesc_PackagedWater_256.png","Water, packaged for alternative transport."],
+			["Paleberry","./FactoryGame/Content/FactoryGame/Resource/Environment/Berry/UI/IconDesc_Berry_256.png","Consumable\n\nEat to restore 1 health segment."],
+			["Parachute","./FactoryGame/Content/FactoryGame/Resource/Equipment/Beacon/UI/Parachute_256.png","Slows down your fall when activated in mid-air."],
+			["Petroleum Coke","./FactoryGame/Content/FactoryGame/Resource/Parts/PetroleumCoke/UI/IconDesc_PetroleumCoke_256.png","Used for crafting.\nA carbon-rich material distilled from Heavy Oil Residue. \nUsed as a less efficient Coal replacement."],
+			["Plastic","./FactoryGame/Content/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_256.png","Versatile and easy to manufacture, this material has a wide range of uses."],
+			["Plutonium Fuel Rod","./FactoryGame/Content/FactoryGame/Resource/Parts/PlutoniumFuelRods/UI/IconDesc_PlutoniumFuelRod_256.png","Used as fuel for Nuclear Power Plants.\n\nCaution: Produces radioactive Plutonium Waste when consumed.\nCaution: HIGHLY Radioactive."],
+			["Plutonium Pellet","./FactoryGame/Content/FactoryGame/Resource/Parts/PlutoniumPellet/UI/IconDesc_PlutoniumPellet_256.png","Produced in the Particle Accelerator through conversion of Non-fissile Uranium.\nUsed to produce Encased Plutonium Cells for Plutonium Fuel Rods.\n\nPower Usage: 250-750 MW (500 MW average).\nCaution: Moderately Radioactive."],
+			["Plutonium Waste","./FactoryGame/Content/FactoryGame/Resource/Parts/NuclearWaste/UI/IconDesc_PlutoniumWaste_256.png","The by-product of consuming Plutonium Fuel Rods in a Nuclear Power Plant.\nMust be stored in a safe location. Handle with caution.\n\nCaution: EXTREMELY Radioactive."],
+			["Polymer Resin","./FactoryGame/Content/FactoryGame/Resource/Parts/PolymerResin/UI/IconDesc_PolymerResin_256.png","A by-product of Crude Oil refinement into Fuel. Commonly used to manufacture Plastic and Rubber."],
+			["Portable Miner","./FactoryGame/Content/FactoryGame/IconDesc_PortableMiner_256.png","Automatically extracts a resource when placed on a resource node.\nNote: Has limited storage space."],
+			["Power Shard","./FactoryGame/Content/FactoryGame/Resource/Environment/Crystal/UI/PowerShard_256.png","Power Slug mucus compressed into a solid crystal-like shard. \nIt radiates a strange power."],
+			["Pressure Conversion Cube","./FactoryGame/Content/FactoryGame/Resource/Parts/PressureConversionCube/UI/IconDesc_ConversionCube_256.png","Converts outgoing force into internal pressure. Required to contain unstable, high-energy matter."],
+			["Pulse Nobelisk","./FactoryGame/Content/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Shock_256.png","Generates a powerful shockwave instead of a regular explosion."],
+			["Purple Power Slug","./FactoryGame/Content/FactoryGame/Resource/Environment/Crystal/UI/PowerSlugPurple_256.png","A strange slug radiating a powerful unknown power."],
+			["Quartz Crystal","./FactoryGame/Content/FactoryGame/Resource/Parts/QuartzCrystal/UI/IconDesc_QuartzResource_256.png","Derived from Raw Quartz. Used in the production of advanced radar technology and high-quality display screens."],
+			["Quickwire","./FactoryGame/Content/FactoryGame/Resource/Parts/HighSpeedWire/UI/IconDesc_Quickwire_256.png","Caterium's high conductivity and resistance to corrosion make it ideal for small, advanced electronics."],
+			["Radio Control Unit","./FactoryGame/Content/FactoryGame/Resource/Parts/RadioControlUnit/UI/IconDesc_RadioControlUnit_256.png","Enhances and directs radio signals."],
+			["Raw Quartz","./FactoryGame/Content/FactoryGame/Resource/Parts/QuartzCrystal/UI/IconDesc_QuartzCrystal_256.png","Can be processed into Quartz Crystals and Silica, which both offer a variety of applications."],
+			["Reanimated SAM","./FactoryGame/Content/FactoryGame/Resource/Parts/ReanimatedSAM/UI/IconDesc_ReanimatedSam_256.png","The active and contained form of the Strange Alien Matter.\n\nProper electromagnetic containment is required, as it appears to be able to manipulate the atomic bonds of any matter it comes into contact with."],
+			["Rebar Gun","./FactoryGame/Content/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.png","An improvised ranged weapon for self-defense. Has to be reloaded after each use."],
+			["Red FICSMAS Ornament","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_XmasBall_Red_256.png","Used for making FICSMAS Decorations."],
+			["Reinforced Iron Plate","./FactoryGame/Content/FactoryGame/Resource/Parts/IronPlateReinforced/UI/IconDesc_ReinforcedIronPlates_256.png","Used for crafting.\nA sturdier and more durable Iron Plate."],
+			["Rifle","./FactoryGame/Content/FactoryGame/Resource/Equipment/Rifle/UI/RifleMk1_256.png","A long-range, rapid-fire weapon. Specifically designed to deliver adequate performance within the designated work area."],
+			["Rifle Ammo","./FactoryGame/Content/FactoryGame/Equipment/Rifle/UI/IconDesc_Rifle_256.png","Standard issue Rifle ammunition, useful for establishing dominance."],
+			["Rocket Fuel","./FactoryGame/Content/FactoryGame/Resource/Parts/RocketFuel/UI/IconDesc_RocketFuelPipe_256.png","A high-impulse compressed gas fuel.\nCan be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack."],
+			["Rotor","./FactoryGame/Content/FactoryGame/Resource/Parts/Rotor/UI/IconDesc_Rotor_256.png","Used for crafting.\nThe moving parts of a motor."],
+			["Rubber","./FactoryGame/Content/FactoryGame/Resource/Parts/Rubber/UI/IconDesc_Rubber_256.png","A very flexible material that has a lot of friction."],
+			["SAM","./FactoryGame/Content/FactoryGame/Resource/RawResources/SAM/UI/IconDesc_SameOre_256.png","Strange Alien Matter, commonly referred to as SAM, doesn't seem to follow the known laws of physics. It whispers of new possibilities."],
+			["SAM Fluctuator","./FactoryGame/Content/FactoryGame/Resource/Parts/SAMFluctuator/UI/IconDesc_SamFluctuator_256.png","The SAM Fluctuator is able to regulate and direct the behaviour of Reanimated SAM through the application of electric charges with varying frequencies.\nThis control facilitates technologies such as matter-to-energy conversion and spatiotemporal matter manipulation."],
+			["Screw","./FactoryGame/Content/FactoryGame/Resource/Parts/IronScrew/UI/IconDesc_IronScrews_256.png","Used for crafting.\nOne of the most basic parts."],
+			["Shatter Rebar","./FactoryGame/Content/FactoryGame/Equipment/RebarGun/UI/IconDesc_ScatterRebar_256.png","Fractures when shot, launching deadly debris with wide spread but limited range."],
+			["Silica","./FactoryGame/Content/FactoryGame/Resource/Parts/Silica/UI/IconDesc_Silica_256.png","Derived from Raw Quartz. Commonly used to create glass structures, in advanced refinement processes, and for alternative production of electronics."],
+			["Singularity Cell","./FactoryGame/Content/FactoryGame/Resource/Parts/SingularityCell/UI/IconDesc_SingularityCell_256.png","Used to break down space and time. Required to power Portals."],
+			["Smart Plating","./FactoryGame/Content/FactoryGame/Resource/Parts/SmartPlate/UI/IconDesc_SpelevatorPart_1_256.png","Project Part #1. Ship via the Space Elevator to complete phases of Project Assembly."],
+			["Smokeless Powder","./FactoryGame/Content/FactoryGame/Resource/Parts/GunPowder/UI/IconDesc_GunpowderMk2_256.png","An explosive powder that is commonly used to produce modern firearms."],
+			["Snowball","./FactoryGame/Content/FactoryGame/Events/Christmas/Parts/UI/IconDesc_SnowballProjectile_256.png","Compressed dihydrogen monoxide crystals."],
+			["Solid Biofuel","./FactoryGame/Content/FactoryGame/Resource/Parts/SolidBiofuel/UI/IconDesc_SolidBiofuel_256.png","The most energy-efficient form of solid Biomass. Can be used as fuel for the Chainsaw."],
+			["Somersloop","./FactoryGame/Content/FactoryGame/Prototype/WAT/UI/Wat_1_256.png","An odd alien object with a mind-bending, yet somehow familiar shape. It emits an unsettling energy."],
+			["Sparkly Fireworks","./FactoryGame/Content/FactoryGame/Events/Christmas/Fireworks/UI/IconDesc_Rocket03_256.png","Goes Pfffeeeeew... BOOM! *Sparkle*"],
+			["Spitter Remains","./FactoryGame/Content/FactoryGame/Resource/Parts/AnimalParts/UI/IconDesc_SpitterPart_256.png","The remains of a plasma-spitting alien creature.\nUsed for MAM research."],
+			["Stator","./FactoryGame/Content/FactoryGame/Resource/Parts/Stator/UI/IconDesc_Stator_256.png","Used for crafting.\nThe static parts of a motor."],
+			["Steel Beam","./FactoryGame/Content/FactoryGame/Resource/Parts/SteelPlate/UI/IconDesc_SteelBeam_256.png","Primarily used when constructing slightly more advanced buildings."],
+			["Steel Ingot","./FactoryGame/Content/FactoryGame/Resource/Parts/SteelIngot/UI/IconDesc_SteelIngot_256.png","Smelted from a combination of Iron Ore and Coal. Can be made into several parts used in building construction."],
+			["Steel Pipe","./FactoryGame/Content/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_256.png","Primarily used when constructing slightly more advanced buildings."],
+			["Stinger Remains","./FactoryGame/Content/FactoryGame/Resource/Environment/AnimalParts/UI/IconDesc_StingerPart_256.png","The remains of whatever that creepy thing was.\nUsed for MAM research."],
+			["Stun Rebar","./FactoryGame/Content/FactoryGame/Equipment/RebarGun/UI/IconDesc_StunRebar_256.png","Electrocutes the target on impact, stunning it for a short time.\n\nStun Duration: 5 seconds"],
+			["Sulfur","./FactoryGame/Content/FactoryGame/Resource/RawResources/Sulfur/UI/Sulfur_256.png","Primarily used to produce Black Powder."],
+			["Sulfuric Acid","./FactoryGame/Content/FactoryGame/Resource/Parts/SulfuricAcid/UI/IconDesc_LiquidSulfuricAcid_Pipe_256.png","Produced by combining Sulfur and Water in a complex reaction. Primarily used in refinement processes and Battery production."],
+			["Supercomputer","./FactoryGame/Content/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_256.png","The next-gen version of a Computer."],
+			["Superposition Oscillator","./FactoryGame/Content/FactoryGame/Resource/Parts/SuperpositionOscillator/UI/IconDesc_SuperPositionOscillator_256.png","An oscillator circuit that uses the mechanical resonance of a vibrating crystal to create a string vibration with a precise frequency. Often used in teleportation technology and dimensional manipulation."],
+			["Sweet Fireworks","./FactoryGame/Content/FactoryGame/Events/Christmas/Fireworks/UI/IconDesc_Rocket01_256.png","Merry FICSMAS and a Happy New Year!"],
+			["Thermal Propulsion Rocket","./FactoryGame/Content/FactoryGame/Resource/Parts/ThermalAntimatterPropulsionRocket/UI/IconDesc_ThermalPropulsionRocket_256.png","Project Part #8. Ship via the Space Elevator to complete phases of Project Assembly.\n\nUses extreme heat to produce the high-pressure plasma required to get Project Assembly into motion."],
+			["Time Crystal","./FactoryGame/Content/FactoryGame/Resource/Parts/ExoticMatter/UI/IconDesc_ExoticMatter_256.png","Time Crystals are Diamonds that have been reconfigured on a sub-atomic level in the Converter to retain a time-periodic self-organizing structure. This allows them to be used in the development of quantum processing and storage technologies."],
+			["Turbo Motor","./FactoryGame/Content/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_256.png","A more complex and powerful version of the regular Motor."],
+			["Turbo Rifle Ammo","./FactoryGame/Content/FactoryGame/Equipment/Rifle/UI/IconDesc_TurboRifle_256.png","Lightweight, compact, and volatile. These rounds provide extreme capacity and rate of fire at the cost of accuracy."],
+			["Turbofuel","./FactoryGame/Content/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_LiquidTurboFuel_Pipe_256.png","A more efficient alternative to Fuel. Can be used as-is to generate power, or packaged to be used as fuel for vehicles."],
+			["Uranium","./FactoryGame/Content/FactoryGame/Resource/RawResources/OreUranium/UI/IconDesc_UraniumOre_256.png","A radioactive element. \nUsed to produce Encased Uranium Cells for Uranium Fuel Rods.\n\nCaution: Moderately Radioactive."],
+			["Uranium Fuel Rod","./FactoryGame/Content/FactoryGame/Resource/Parts/NuclearFuelRod/UI/IconDesc_NuclearFuelRod_256.png","Used as fuel for Nuclear Power Plants.\n\nCaution: Produces radioactive Uranium Waste when consumed.\nCaution: Moderately Radioactive."],
+			["Uranium Waste","./FactoryGame/Content/FactoryGame/Resource/Parts/NuclearWaste/UI/IconDesc_NuclearWaste_256.png","The by-product of consuming Uranium Fuel Rods in a Nuclear Power Plant.\nNon-Fissile Uranium can be extracted. Handle with caution.\n\nCaution: HIGHLY Radioactive."],
+			["Versatile Framework","./FactoryGame/Content/FactoryGame/Resource/Parts/Skeletalframework/UI/IconDesc_SpelevatorPart_2_256.png","Project Part #2. Ship via the Space Elevator to complete phases of Project Assembly."],
+			["Water","./FactoryGame/Content/FactoryGame/Resource/RawResources/Water/UI/LiquidWater_Pipe_256.png","It's water."],
+			["Wire","./FactoryGame/Content/FactoryGame/Resource/Parts/Wire/UI/IconDesc_Wire_256.png","Used for crafting.\nOne of the most basic parts."],
+			["Wood","./FactoryGame/Content/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Wood_256.png","Primarily used as fuel.\nBiomass Burners and vehicles can use Wood for power."],
+			["Xeno-Basher","./FactoryGame/Content/FactoryGame/Resource/Equipment/StunSpear/UI/IconDesc_XenoBasher_256.png","A heavy self-defense electroshock melee weapon."],
+			["Xeno-Zapper","./FactoryGame/Content/FactoryGame/Resource/Equipment/ShockShank/UI/IconDesc_XenoZapper_256.png","A standard issue self-defense electroshock melee weapon."],
+			["Yellow Power Slug","./FactoryGame/Content/FactoryGame/Resource/Environment/Crystal/UI/PowerSlugYellow_256.png","A strange slug radiating an unknown power."],
+			["Zipline","./FactoryGame/Content/FactoryGame/Equipment/Zipline/UI/IconDesc_Zipline_256.png","Provides faster traversal of factories by allowing pioneers to zip along Power lines.\nActivate the Zipline and aim at a nearby Power Line to connect to it."]
+		],
+		"Manufacturers": [
+			["Assembler","./FactoryGame/Content/FactoryGame/Buildable/Factory/AssemblerMk1/UI/IconDesc_AssemblerMk1_256.png","Crafts 2 parts into another part.\n\nCan be automated by feeding component parts in via Conveyor Belts connected to the input ports. The resulting parts can be automatically extracted by connecting a Conveyor Belt to the output port."],
+			["Blender","./FactoryGame/Content/FactoryGame/Buildable/Factory/Blender/UI/IconDesc_Blender_256.png","Blends fluids together or combines them with solid parts in a wide variety of processes.\nHead Lift: 10 m\n(Allows fluids to be transported 10 meters upwards.)\n\nHas both Conveyor Belt and Pipeline input and output ports."],
+			["Constructor","./FactoryGame/Content/FactoryGame/Buildable/Factory/ConstructorMk1/UI/IconDesc_ConstructorMk1_256.png","Crafts 1 part into another part.\n\nCan be automated by feeding component parts in via a Conveyor Belt connected to the input port. The resulting parts can be automatically extracted by connecting a Conveyor Belt to the output port."],
+			["Converter","./FactoryGame/Content/FactoryGame/Buildable/Factory/Converter/UI/IconDesc_Converter_256.png","The Converter harnesses Reanimated SAM to enable precise matter and energy transmutation.\n\nWarning: Power usage is very high and unstable."],
+			["Crafting Bench","./FactoryGame/Content/FactoryGame/Buildable/Factory/WorkBench/UI/Workbench_256.png","Allows you to manually craft a wide range of different parts. \nThese parts can then be used to construct various factory buildings, vehicles, and equipment."],
+			["Equipment Workshop","./FactoryGame/Content/FactoryGame/Buildable/Factory/Workshop/UI/Workshop_256.png","Used to manually craft equipment."],
+			["Foundry","./FactoryGame/Content/FactoryGame/Buildable/Factory/FoundryMk1/UI/IconDesc_Foundry_256.png","Smelts 2 resources into alloy ingots.\n\nCan be automated by feeding ore in via Conveyor Belts connected to the input ports. The resulting ingots can be automatically extracted by connecting a Conveyor Belt to the output port."],
+			["Manufacturer","./FactoryGame/Content/FactoryGame/Buildable/Factory/ManufacturerMk1/UI/IconDesc_Manufacturer_256.png","Crafts 3 or 4 parts into another part.\n\nCan be automated by feeding component parts in via Conveyor Belts connected to the input ports. The resulting parts can be automatically extracted by connecting a Conveyor Belt to the output port."],
+			["Packager","./FactoryGame/Content/FactoryGame/Buildable/Factory/Packager/UI/IconDesc_Packager_256.png","Packages and unpackages fluids.\nHead Lift: 10 m\n(Allows fluids to be transported 10 meters upwards.)\n\nContains both Conveyor Belt and Pipeline input and output ports so that a wide range of recipes can be automated."],
+			["Particle Accelerator","./FactoryGame/Content/FactoryGame/Buildable/Factory/HadronCollider/UI/IconDesc_HadronCollider_256.png","Uses electromagnetic fields to propel particles to very high speeds and energies. The specific design allows for a variety of processes, including matter generation and conversion.\n\nWarning: Power usage is extremely high and unstable, and varies per recipe."],
+			["Quantum Encoder","./FactoryGame/Content/FactoryGame/Buildable/Factory/QuantumEncoder/UI/IconDesc_QuantumEncoder_256.png","The Quantum Encoder uses Excited Photonic Matter to produce the most complex of parts, controlling development up to the quantum level.\n\nWarning: Power usage is extremely high and unstable."],
+			["Refinery","./FactoryGame/Content/FactoryGame/Buildable/Factory/OilRefinery/UI/IconDesc_OilRefinery_256.png","Refines fluid and/or solid parts into other parts.\nHead Lift: 10 m\n(Allows fluids to be transported 10 meters upwards.)\n\nContains both Conveyor Belt and Pipeline input and output ports so that a wide range of recipes can be automated."],
+			["Smelter","./FactoryGame/Content/FactoryGame/Buildable/Factory/SmelterMk1/UI/IconDesc_SmelterMk1_256.png","Smelts ore into ingots.\n\nCan be automated by feeding ore in via a Conveyor Belt connected to the input port. The resulting ingots can be automatically extracted by connecting a Conveyor Belt to the output port."]
+		]
+	},
+	"Recipes": [
+		{
+			"name": "Actual Snow",
+			"input": [["FICSMAS Gift",5]],
+			"output": [["Actual Snow",2]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Adaptive Control Unit",
+			"input": [["Circuit Board",5],["Computer",2],["Heavy Modular Frame",1],["Automated Wiring",5]],
+			"output": [["Adaptive Control Unit",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "AI Expansion Server",
+			"input": [["Excited Photonic Matter",25000],["Superposition Oscillator",1],["Magnetic Field Generator",1],["Neural-Quantum Processor",1]],
+			"output": [["Dark Matter Residue",25000],["AI Expansion Server",1]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "AI Limiter",
+			"input": [["Copper Sheet",5],["Quickwire",20]],
+			"output": [["AI Limiter",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Alclad Aluminum Sheet",
+			"input": [["Aluminum Ingot",3],["Copper Ingot",1]],
+			"output": [["Alclad Aluminum Sheet",3]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Alien DNA Capsule",
+			"input": [["Alien Protein",1]],
+			"output": [["Alien DNA Capsule",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Alien Power Matrix",
+			"input": [["Power Shard",3],["Excited Photonic Matter",24000],["Superposition Oscillator",3],["SAM Fluctuator",5]],
+			"output": [["Desc_AlienPowerFuel_C",1],["Dark Matter Residue",24000]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "Alternate: Adhered Iron Plate",
+			"input": [["Iron Plate",3],["Rubber",1]],
+			"output": [["Reinforced Iron Plate",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Alclad Casing",
+			"input": [["Aluminum Ingot",20],["Copper Ingot",10]],
+			"output": [["Aluminum Casing",15]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Aluminum Beam",
+			"input": [["Aluminum Ingot",3]],
+			"output": [["Steel Beam",3]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Aluminum Rod",
+			"input": [["Aluminum Ingot",1]],
+			"output": [["Iron Rod",7]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Automated Miner",
+			"input": [["Iron Plate",4],["Steel Pipe",4]],
+			"output": [["Portable Miner",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Automated Speed Wiring",
+			"input": [["High-Speed Connector",1],["Stator",2],["Wire",40]],
+			"output": [["Automated Wiring",4]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Basic Iron Ingot",
+			"input": [["Iron Ore",5],["Limestone",8]],
+			"output": [["Iron Ingot",10]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Biocoal",
+			"input": [["Biomass",5]],
+			"output": [["Coal",6]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Bolted Frame",
+			"input": [["Reinforced Iron Plate",3],["Screw",56]],
+			"output": [["Modular Frame",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Bolted Iron Plate",
+			"input": [["Iron Plate",18],["Screw",50]],
+			"output": [["Reinforced Iron Plate",3]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Cast Screw",
+			"input": [["Iron Ingot",5]],
+			"output": [["Screw",20]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Caterium Circuit Board",
+			"input": [["Quickwire",30],["Plastic",10]],
+			"output": [["Circuit Board",7]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Caterium Computer",
+			"input": [["Circuit Board",4],["Quickwire",14],["Rubber",6]],
+			"output": [["Computer",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Caterium Wire",
+			"input": [["Caterium Ingot",1]],
+			"output": [["Wire",8]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Charcoal",
+			"input": [["Wood",1]],
+			"output": [["Coal",10]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Cheap Silica",
+			"input": [["Raw Quartz",3],["Limestone",5]],
+			"output": [["Silica",7]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Classic Battery",
+			"input": [["Alclad Aluminum Sheet",7],["Plastic",8],["Sulfur",6],["Wire",12]],
+			"output": [["Battery",4]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Cloudy Diamonds",
+			"input": [["Coal",12],["Limestone",24]],
+			"output": [["Diamonds",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Coated Cable",
+			"input": [["Heavy Oil Residue",2000],["Wire",5]],
+			"output": [["Cable",9]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Coated Iron Canister",
+			"input": [["Copper Sheet",1],["Iron Plate",2]],
+			"output": [["Empty Canister",4]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Coated Iron Plate",
+			"input": [["Iron Ingot",5],["Plastic",1]],
+			"output": [["Iron Plate",10]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Coke Steel Ingot",
+			"input": [["Iron Ore",15],["Petroleum Coke",15]],
+			"output": [["Steel Ingot",20]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Compacted Coal",
+			"input": [["Coal",5],["Sulfur",5]],
+			"output": [["Compacted Coal",5]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Compacted Steel Ingot",
+			"input": [["Compacted Coal",1],["Iron Ore",2]],
+			"output": [["Steel Ingot",4]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Cooling Device",
+			"input": [["Heat Sink",4],["Motor",1],["Nitrogen Gas",24000]],
+			"output": [["Cooling System",2]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Copper Alloy Ingot",
+			"input": [["Copper Ore",5],["Iron Ore",5]],
+			"output": [["Copper Ingot",10]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Copper Rotor",
+			"input": [["Copper Sheet",6],["Screw",52]],
+			"output": [["Rotor",3]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Crystal Computer",
+			"input": [["Circuit Board",3],["Crystal Oscillator",1]],
+			"output": [["Computer",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Dark Matter Crystallization",
+			"input": [["Dark Matter Residue",10000]],
+			"output": [["Dark Matter Crystal",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Dark Matter Trap",
+			"input": [["Dark Matter Residue",5000],["Time Crystal",1]],
+			"output": [["Dark Matter Crystal",2]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Dark-Ion Fuel",
+			"input": [["Dark Matter Crystal",4],["Packaged Rocket Fuel",12]],
+			"output": [["Compacted Coal",2],["Ionized Fuel",10000]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Alternate: Diluted Fuel",
+			"input": [["Heavy Oil Residue",5000],["Water",10000]],
+			"output": [["Fuel",10000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Diluted Packaged Fuel",
+			"input": [["Heavy Oil Residue",1000],["Packaged Water",2]],
+			"output": [["Packaged Fuel",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Distilled Silica",
+			"input": [["Dissolved Silica",12000],["Limestone",5],["Water",10000]],
+			"output": [["Silica",27],["Water",8000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Electric Motor",
+			"input": [["Electromagnetic Control Rod",1],["Rotor",2]],
+			"output": [["Motor",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Electrode Aluminum Scrap",
+			"input": [["Alumina Solution",12000],["Petroleum Coke",4]],
+			"output": [["Aluminum Scrap",20],["Water",7000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Electrode Circuit Board",
+			"input": [["Petroleum Coke",8],["Rubber",4]],
+			"output": [["Circuit Board",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Electromagnetic Connection Rod",
+			"input": [["High-Speed Connector",1],["Stator",2]],
+			"output": [["Electromagnetic Control Rod",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Encased Industrial Pipe",
+			"input": [["Concrete",5],["Steel Pipe",6]],
+			"output": [["Encased Industrial Beam",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Fertile Uranium",
+			"input": [["Nitric Acid",3000],["Uranium Waste",5],["Uranium",5],["Sulfuric Acid",5000]],
+			"output": [["Non-Fissile Uranium",20],["Water",8000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Fine Black Powder",
+			"input": [["Compacted Coal",2],["Sulfur",1]],
+			"output": [["Black Powder",6]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Fine Concrete",
+			"input": [["Silica",3],["Limestone",12]],
+			"output": [["Concrete",10]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Flexible Framework",
+			"input": [["Modular Frame",1],["Rubber",8],["Steel Beam",6]],
+			"output": [["Versatile Framework",2]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Fused Quartz Crystal",
+			"input": [["Coal",12],["Raw Quartz",25]],
+			"output": [["Quartz Crystal",18]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Fused Quickwire",
+			"input": [["Copper Ingot",5],["Caterium Ingot",1]],
+			"output": [["Quickwire",12]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Fused Wire",
+			"input": [["Copper Ingot",4],["Caterium Ingot",1]],
+			"output": [["Wire",30]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Heat Exchanger",
+			"input": [["Aluminum Casing",3],["Rubber",3]],
+			"output": [["Heat Sink",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Heat-Fused Frame",
+			"input": [["Aluminum Ingot",50],["Fuel",10000],["Heavy Modular Frame",1],["Nitric Acid",8000]],
+			"output": [["Fused Modular Frame",1]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Heavy Encased Frame",
+			"input": [["Concrete",22],["Modular Frame",8],["Steel Pipe",36],["Encased Industrial Beam",10]],
+			"output": [["Heavy Modular Frame",3]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Heavy Flexible Frame",
+			"input": [["Screw",104],["Modular Frame",5],["Rubber",20],["Encased Industrial Beam",3]],
+			"output": [["Heavy Modular Frame",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Heavy Oil Residue",
+			"input": [["Crude Oil",3000]],
+			"output": [["Heavy Oil Residue",4000],["Polymer Resin",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Infused Uranium Cell",
+			"input": [["Quickwire",15],["Uranium",5],["Silica",3],["Sulfur",5]],
+			"output": [["Encased Uranium Cell",4]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Instant Plutonium Cell",
+			"input": [["Aluminum Casing",20],["Non-Fissile Uranium",150]],
+			"output": [["Encased Plutonium Cell",20]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Instant Scrap",
+			"input": [["Coal",10],["Bauxite",15],["Sulfuric Acid",5000],["Water",6000]],
+			"output": [["Aluminum Scrap",30],["Water",5000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Insulated Cable",
+			"input": [["Rubber",6],["Wire",9]],
+			"output": [["Cable",20]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Insulated Crystal Oscillator",
+			"input": [["AI Limiter",1],["Quartz Crystal",10],["Rubber",7]],
+			"output": [["Crystal Oscillator",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Iron Alloy Ingot",
+			"input": [["Copper Ore",2],["Iron Ore",8]],
+			"output": [["Iron Ingot",15]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Iron Pipe",
+			"input": [["Iron Ingot",20]],
+			"output": [["Steel Pipe",5]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Iron Wire",
+			"input": [["Iron Ingot",5]],
+			"output": [["Wire",9]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Leached Caterium Ingot",
+			"input": [["Caterium Ore",9],["Sulfuric Acid",5000]],
+			"output": [["Caterium Ingot",6]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Leached Copper Ingot",
+			"input": [["Copper Ore",9],["Sulfuric Acid",5000]],
+			"output": [["Copper Ingot",22]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Leached Iron ingot",
+			"input": [["Iron Ore",5],["Sulfuric Acid",1000]],
+			"output": [["Iron Ingot",10]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Molded Beam",
+			"input": [["Concrete",16],["Steel Ingot",24]],
+			"output": [["Steel Beam",9]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Molded Steel Pipe",
+			"input": [["Concrete",3],["Steel Ingot",5]],
+			"output": [["Steel Pipe",5]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Nitro Rocket Fuel",
+			"input": [["Coal",2],["Fuel",4000],["Nitrogen Gas",3000],["Sulfur",4]],
+			"output": [["Compacted Coal",1],["Rocket Fuel",6000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: OC Supercomputer",
+			"input": [["Cooling System",2],["Radio Control Unit",2]],
+			"output": [["Supercomputer",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Oil-Based Diamonds",
+			"input": [["Crude Oil",10000]],
+			"output": [["Diamonds",2]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Petroleum Diamonds",
+			"input": [["Petroleum Coke",24]],
+			"output": [["Diamonds",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Pink Diamonds",
+			"input": [["Coal",8],["Quartz Crystal",3]],
+			"output": [["Diamonds",1]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Alternate: Plastic AI Limiter",
+			"input": [["Quickwire",30],["Plastic",7]],
+			"output": [["AI Limiter",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Plastic Smart Plating",
+			"input": [["Reinforced Iron Plate",1],["Plastic",3],["Rotor",1]],
+			"output": [["Smart Plating",2]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Plutonium Fuel Unit",
+			"input": [["Encased Plutonium Cell",20],["Pressure Conversion Cube",1]],
+			"output": [["Plutonium Fuel Rod",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Polyester Fabric",
+			"input": [["Polymer Resin",1],["Water",1000]],
+			"output": [["Fabric",1]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Polymer Resin",
+			"input": [["Crude Oil",6000]],
+			"output": [["Heavy Oil Residue",2000],["Polymer Resin",13]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Pure Aluminum Ingot",
+			"input": [["Aluminum Scrap",2]],
+			"output": [["Aluminum Ingot",1]],
+			"machine": ["Smelter"]
+		},
+		{
+			"name": "Alternate: Pure Caterium Ingot",
+			"input": [["Caterium Ore",2],["Water",2000]],
+			"output": [["Caterium Ingot",1]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Pure Copper Ingot",
+			"input": [["Copper Ore",6],["Water",4000]],
+			"output": [["Copper Ingot",15]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Pure Iron Ingot",
+			"input": [["Iron Ore",7],["Water",4000]],
+			"output": [["Iron Ingot",13]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Pure Quartz Crystal",
+			"input": [["Raw Quartz",9],["Water",5000]],
+			"output": [["Quartz Crystal",7]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Quartz Purification",
+			"input": [["Nitric Acid",2000],["Raw Quartz",24]],
+			"output": [["Dissolved Silica",12000],["Quartz Crystal",15]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Quickwire Cable",
+			"input": [["Quickwire",3],["Rubber",2]],
+			"output": [["Cable",11]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Quickwire Stator",
+			"input": [["Quickwire",15],["Steel Pipe",4]],
+			"output": [["Stator",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Radio Connection Unit",
+			"input": [["Heat Sink",4],["High-Speed Connector",2],["Quartz Crystal",12]],
+			"output": [["Radio Control Unit",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Radio Control System",
+			"input": [["Aluminum Casing",60],["Circuit Board",10],["Crystal Oscillator",1],["Rubber",30]],
+			"output": [["Radio Control Unit",3]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Recycled Plastic",
+			"input": [["Fuel",6000],["Rubber",6]],
+			"output": [["Plastic",12]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Recycled Rubber",
+			"input": [["Fuel",6000],["Plastic",6]],
+			"output": [["Rubber",12]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Rigor Motor",
+			"input": [["Crystal Oscillator",1],["Rotor",3],["Stator",3]],
+			"output": [["Motor",6]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Rubber Concrete",
+			"input": [["Rubber",2],["Limestone",10]],
+			"output": [["Concrete",9]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Silicon Circuit Board",
+			"input": [["Copper Sheet",11],["Silica",11]],
+			"output": [["Circuit Board",5]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Silicon High-Speed Connector",
+			"input": [["Circuit Board",2],["Quickwire",60],["Silica",25]],
+			"output": [["High-Speed Connector",2]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Sloppy Alumina",
+			"input": [["Bauxite",10],["Water",10000]],
+			"output": [["Alumina Solution",12000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Solid Steel Ingot",
+			"input": [["Coal",2],["Iron Ingot",2]],
+			"output": [["Steel Ingot",3]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Steamed Copper Sheet",
+			"input": [["Copper Ingot",3],["Water",3000]],
+			"output": [["Copper Sheet",3]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Steel Canister",
+			"input": [["Steel Ingot",4]],
+			"output": [["Empty Canister",4]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Steel Cast Plate",
+			"input": [["Iron Ingot",1],["Steel Ingot",1]],
+			"output": [["Iron Plate",3]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Steel Rod",
+			"input": [["Steel Ingot",1]],
+			"output": [["Iron Rod",4]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Steel Rotor",
+			"input": [["Steel Pipe",2],["Wire",6]],
+			"output": [["Rotor",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Steel Screw",
+			"input": [["Steel Beam",1]],
+			"output": [["Screw",52]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Alternate: Steeled Frame",
+			"input": [["Reinforced Iron Plate",2],["Steel Pipe",10]],
+			"output": [["Modular Frame",3]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Stitched Iron Plate",
+			"input": [["Iron Plate",10],["Wire",20]],
+			"output": [["Reinforced Iron Plate",3]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Alternate: Super-State Computer",
+			"input": [["Battery",10],["Computer",3],["Electromagnetic Control Rod",1],["Wire",25]],
+			"output": [["Supercomputer",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Tempered Caterium Ingot",
+			"input": [["Caterium Ore",6],["Petroleum Coke",2]],
+			"output": [["Caterium Ingot",3]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Tempered Copper Ingot",
+			"input": [["Copper Ore",5],["Petroleum Coke",8]],
+			"output": [["Copper Ingot",12]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Alternate: Turbo Blend Fuel",
+			"input": [["Heavy Oil Residue",4000],["Fuel",2000],["Petroleum Coke",3],["Sulfur",3]],
+			"output": [["Turbofuel",6000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Alternate: Turbo Diamonds",
+			"input": [["Coal",30],["Packaged Turbofuel",2]],
+			"output": [["Diamonds",3]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Alternate: Turbo Electric Motor",
+			"input": [["Electromagnetic Control Rod",5],["Radio Control Unit",9],["Motor",7],["Rotor",7]],
+			"output": [["Turbo Motor",3]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Turbo Heavy Fuel",
+			"input": [["Compacted Coal",4],["Heavy Oil Residue",5000]],
+			"output": [["Turbofuel",4000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alternate: Turbo Pressure Motor",
+			"input": [["Motor",4],["Packaged Nitrogen Gas",24],["Pressure Conversion Cube",1],["Stator",8]],
+			"output": [["Turbo Motor",2]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Uranium Fuel Unit",
+			"input": [["Crystal Oscillator",3],["Electromagnetic Control Rod",10],["Rotor",10],["Encased Uranium Cell",100]],
+			"output": [["Uranium Fuel Rod",3]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Alternate: Wet Concrete",
+			"input": [["Limestone",6],["Water",5000]],
+			"output": [["Concrete",4]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Alumina Solution",
+			"input": [["Bauxite",12],["Water",18000]],
+			"output": [["Alumina Solution",12000],["Silica",5]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Aluminum Casing",
+			"input": [["Aluminum Ingot",3]],
+			"output": [["Aluminum Casing",2]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Aluminum Ingot",
+			"input": [["Aluminum Scrap",6],["Silica",5]],
+			"output": [["Aluminum Ingot",4]],
+			"machine": ["Foundry","Crafting Bench"]
+		},
+		{
+			"name": "Aluminum Scrap",
+			"input": [["Alumina Solution",4000],["Coal",2]],
+			"output": [["Aluminum Scrap",6],["Water",2000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Assembly Director System",
+			"input": [["Supercomputer",1],["Adaptive Control Unit",2]],
+			"output": [["Assembly Director System",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Automated Wiring",
+			"input": [["Cable",20],["Stator",1]],
+			"output": [["Automated Wiring",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Ballistic Warp Drive",
+			"input": [["Dark Matter Crystal",40],["Superposition Oscillator",2],["Singularity Cell",5],["Thermal Propulsion Rocket",1]],
+			"output": [["Ballistic Warp Drive",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Battery",
+			"input": [["Alumina Solution",2000],["Aluminum Casing",1],["Sulfuric Acid",2500]],
+			"output": [["Battery",1],["Water",1500]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Bauxite (Caterium)",
+			"input": [["Caterium Ore",15],["Reanimated SAM",1]],
+			"output": [["Bauxite",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Bauxite (Copper)",
+			"input": [["Copper Ore",18],["Reanimated SAM",1]],
+			"output": [["Bauxite",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Biochemical Sculptor",
+			"input": [["Ficsite Trigon",80],["Assembly Director System",1],["Water",20000]],
+			"output": [["Biochemical Sculptor",4]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Biomass (Alien Protein)",
+			"input": [["Alien Protein",1]],
+			"output": [["Biomass",100]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Biomass (Leaves)",
+			"input": [["Leaves",10]],
+			"output": [["Biomass",5]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Biomass (Mycelia)",
+			"input": [["Mycelia",1]],
+			"output": [["Biomass",10]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Biomass (Wood)",
+			"input": [["Wood",4]],
+			"output": [["Biomass",20]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Black Powder",
+			"input": [["Coal",1],["Sulfur",1]],
+			"output": [["Black Powder",2]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Blade Runners",
+			"input": [["Modular Frame",3],["Rotor",3],["Silica",20]],
+			"output": [["Blade Runners",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Blue FICSMAS Ornament",
+			"input": [["FICSMAS Gift",1]],
+			"output": [["Blue FICSMAS Ornament",2]],
+			"machine": ["Smelter"]
+		},
+		{
+			"name": "Cable",
+			"input": [["Wire",2]],
+			"output": [["Cable",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Candy Cane",
+			"input": [["FICSMAS Gift",3]],
+			"output": [["Candy Cane",1]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Candy Cane Basher",
+			"input": [["Xeno-Zapper",2],["Candy Cane",25],["FICSMAS Gift",15]],
+			"output": [["Candy Cane Basher",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Caterium Ingot",
+			"input": [["Caterium Ore",3]],
+			"output": [["Caterium Ingot",1]],
+			"machine": ["Smelter","Crafting Bench"]
+		},
+		{
+			"name": "Caterium Ore (Copper)",
+			"input": [["Copper Ore",15],["Reanimated SAM",1]],
+			"output": [["Caterium Ore",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Caterium Ore (Quartz)",
+			"input": [["Raw Quartz",12],["Reanimated SAM",1]],
+			"output": [["Caterium Ore",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Chainsaw",
+			"input": [["Cable",15],["Reinforced Iron Plate",5],["Iron Rod",25],["Screw",160]],
+			"output": [["Chainsaw",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Circuit Board",
+			"input": [["Copper Sheet",2],["Plastic",4]],
+			"output": [["Circuit Board",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Cluster Nobelisk",
+			"input": [["Smokeless Powder",4],["Nobelisk",3]],
+			"output": [["Cluster Nobelisk",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Coal (Iron)",
+			"input": [["Iron Ore",18],["Reanimated SAM",1]],
+			"output": [["Coal",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Coal (Limestone)",
+			"input": [["Reanimated SAM",1],["Limestone",36]],
+			"output": [["Coal",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Computer",
+			"input": [["Cable",8],["Circuit Board",4],["Plastic",16]],
+			"output": [["Computer",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Concrete",
+			"input": [["Limestone",3]],
+			"output": [["Concrete",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Cooling System",
+			"input": [["Heat Sink",2],["Nitrogen Gas",25000],["Rubber",2],["Water",5000]],
+			"output": [["Cooling System",1]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Copper FICSMAS Ornament",
+			"input": [["Copper Ingot",2],["Red FICSMAS Ornament",2]],
+			"output": [["Copper FICSMAS Ornament",1]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Copper Ingot",
+			"input": [["Copper Ore",1]],
+			"output": [["Copper Ingot",1]],
+			"machine": ["Smelter","Crafting Bench"]
+		},
+		{
+			"name": "Copper Ore (Quartz)",
+			"input": [["Raw Quartz",10],["Reanimated SAM",1]],
+			"output": [["Copper Ore",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Copper Ore (Sulfur)",
+			"input": [["Reanimated SAM",1],["Sulfur",12]],
+			"output": [["Copper Ore",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Copper Powder",
+			"input": [["Copper Ingot",30]],
+			"output": [["Copper Powder",5]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Copper Sheet",
+			"input": [["Copper Ingot",2]],
+			"output": [["Copper Sheet",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Crystal Oscillator",
+			"input": [["Cable",28],["Reinforced Iron Plate",5],["Quartz Crystal",36]],
+			"output": [["Crystal Oscillator",2]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Dark Matter Crystal",
+			"input": [["Dark Matter Residue",5000],["Diamonds",1]],
+			"output": [["Dark Matter Crystal",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Dark Matter Residue",
+			"input": [["Reanimated SAM",5]],
+			"output": [["Dark Matter Residue",10000]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Diamonds",
+			"input": [["Coal",20]],
+			"output": [["Diamonds",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Electromagnetic Control Rod",
+			"input": [["AI Limiter",2],["Stator",3]],
+			"output": [["Electromagnetic Control Rod",2]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Empty Canister",
+			"input": [["Plastic",2]],
+			"output": [["Empty Canister",4]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Empty Fluid Tank",
+			"input": [["Aluminum Ingot",1]],
+			"output": [["Empty Fluid Tank",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Encased Industrial Beam",
+			"input": [["Concrete",6],["Steel Beam",3]],
+			"output": [["Encased Industrial Beam",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Encased Plutonium Cell",
+			"input": [["Concrete",4],["Plutonium Pellet",2]],
+			"output": [["Encased Plutonium Cell",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Encased Uranium Cell",
+			"input": [["Concrete",3],["Uranium",10],["Sulfuric Acid",8000]],
+			"output": [["Sulfuric Acid",2000],["Encased Uranium Cell",5]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Excited Photonic Matter",
+			"input": [],
+			"output": [["Excited Photonic Matter",10000]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Explosive Rebar",
+			"input": [["Smokeless Powder",2],["Iron Rebar",2],["Steel Pipe",2]],
+			"output": [["Explosive Rebar",1]],
+			"machine": ["Manufacturer","Equipment Workshop"]
+		},
+		{
+			"name": "Fabric",
+			"input": [["Biomass",5],["Mycelia",1]],
+			"output": [["Fabric",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Factory Cart™",
+			"input": [["Reinforced Iron Plate",4],["Iron Rod",4],["Rotor",2]],
+			"output": [["Factory Cart™",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Fancy Fireworks",
+			"input": [["FICSMAS Bow",3],["FICSMAS Tree Branch",4]],
+			"output": [["Fancy Fireworks",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Ficsite Ingot (Aluminum)",
+			"input": [["Aluminum Ingot",4],["Reanimated SAM",2]],
+			"output": [["Ficsite Ingot",1]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Ficsite Ingot (Caterium)",
+			"input": [["Caterium Ingot",4],["Reanimated SAM",3]],
+			"output": [["Ficsite Ingot",1]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Ficsite Ingot (Iron)",
+			"input": [["Iron Ingot",24],["Reanimated SAM",4]],
+			"output": [["Ficsite Ingot",1]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Ficsite Trigon",
+			"input": [["Ficsite Ingot",1]],
+			"output": [["Ficsite Trigon",3]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "FICSMAS Bow",
+			"input": [["FICSMAS Gift",2]],
+			"output": [["FICSMAS Bow",1]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "FICSMAS Decoration",
+			"input": [["FICSMAS Ornament Bundle",6],["FICSMAS Tree Branch",15]],
+			"output": [["FICSMAS Decoration",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "FICSMAS Ornament Bundle",
+			"input": [["Copper FICSMAS Ornament",1],["Iron FICSMAS Ornament",1]],
+			"output": [["FICSMAS Ornament Bundle",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "FICSMAS Tree Branch",
+			"input": [["FICSMAS Gift",1]],
+			"output": [["FICSMAS Tree Branch",1]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "FICSMAS Wonder Star",
+			"input": [["Candy Cane",20],["FICSMAS Decoration",5]],
+			"output": [["FICSMAS Wonder Star",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Ficsonium",
+			"input": [["Dark Matter Residue",20000],["Plutonium Waste",1],["Singularity Cell",1]],
+			"output": [["Ficsonium",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Ficsonium Fuel Rod",
+			"input": [["Electromagnetic Control Rod",2],["Ficsite Trigon",40],["Ficsonium",2],["Excited Photonic Matter",20000]],
+			"output": [["Dark Matter Residue",20000],["Ficsonium Fuel Rod",1]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "Fuel",
+			"input": [["Crude Oil",6000]],
+			"output": [["Fuel",4000],["Polymer Resin",3]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Fused Modular Frame",
+			"input": [["Aluminum Casing",50],["Heavy Modular Frame",1],["Nitrogen Gas",25000]],
+			"output": [["Fused Modular Frame",1]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Gas Filter",
+			"input": [["Coal",4],["Fabric",2],["Iron Plate",2]],
+			"output": [["Gas Filter",1]],
+			"machine": ["Manufacturer","Equipment Workshop"]
+		},
+		{
+			"name": "Gas Mask",
+			"input": [["Copper Sheet",10],["Fabric",50],["Steel Pipe",10]],
+			"output": [["Gas Mask",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Gas Nobelisk",
+			"input": [["Biomass",10],["Nobelisk",1]],
+			"output": [["Gas Nobelisk",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Golden Factory Cart™",
+			"input": [["Caterium Ingot",15],["Iron Rod",4],["Rotor",2]],
+			"output": [["Golden Factory Cart™",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Hatcher Protein",
+			"input": [["Hatcher Remains",1]],
+			"output": [["Alien Protein",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Hazmat Suit",
+			"input": [["Alclad Aluminum Sheet",50],["Fabric",50],["Plastic",50],["Rubber",50]],
+			"output": [["Hazmat Suit",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Heat Sink",
+			"input": [["Alclad Aluminum Sheet",5],["Copper Sheet",3]],
+			"output": [["Heat Sink",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Heavy Modular Frame",
+			"input": [["Screw",120],["Modular Frame",5],["Steel Pipe",20],["Encased Industrial Beam",5]],
+			"output": [["Heavy Modular Frame",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "High-Speed Connector",
+			"input": [["Cable",10],["Circuit Board",1],["Quickwire",56]],
+			"output": [["High-Speed Connector",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Hog Protein",
+			"input": [["Hog Remains",1]],
+			"output": [["Alien Protein",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Homing Rifle Ammo",
+			"input": [["Rifle Ammo",20],["High-Speed Connector",1]],
+			"output": [["Homing Rifle Ammo",10]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Hoverpack",
+			"input": [["Alclad Aluminum Sheet",40],["Computer",8],["Heavy Modular Frame",4],["Motor",8]],
+			"output": [["Hoverpack",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Iodine-Infused Filter",
+			"input": [["Aluminum Casing",1],["Gas Filter",1],["Quickwire",8]],
+			"output": [["Iodine-Infused Filter",1]],
+			"machine": ["Manufacturer","Equipment Workshop"]
+		},
+		{
+			"name": "Ionized Fuel",
+			"input": [["Power Shard",1],["Rocket Fuel",16000]],
+			"output": [["Compacted Coal",2],["Ionized Fuel",16000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Iron FICSMAS Ornament",
+			"input": [["Iron Ingot",3],["Blue FICSMAS Ornament",3]],
+			"output": [["Iron FICSMAS Ornament",1]],
+			"machine": ["Foundry"]
+		},
+		{
+			"name": "Iron Ingot",
+			"input": [["Iron Ore",1]],
+			"output": [["Iron Ingot",1]],
+			"machine": ["Smelter","Crafting Bench"]
+		},
+		{
+			"name": "Iron Ore (Limestone)",
+			"input": [["Reanimated SAM",1],["Limestone",24]],
+			"output": [["Iron Ore",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Iron Plate",
+			"input": [["Iron Ingot",3]],
+			"output": [["Iron Plate",2]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Iron Rebar",
+			"input": [["Iron Rod",1]],
+			"output": [["Iron Rebar",1]],
+			"machine": ["Constructor","Equipment Workshop"]
+		},
+		{
+			"name": "Iron Rod",
+			"input": [["Iron Ingot",1]],
+			"output": [["Iron Rod",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Jetpack",
+			"input": [["Iron Plate",25],["Motor",5],["Steel Pipe",10],["Wire",50]],
+			"output": [["Jetpack",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Limestone (Sulfur)",
+			"input": [["Reanimated SAM",1],["Sulfur",2]],
+			"output": [["Limestone",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Liquid Biofuel",
+			"input": [["Solid Biofuel",6],["Water",3000]],
+			"output": [["Liquid Biofuel",4000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Magnetic Field Generator",
+			"input": [["Electromagnetic Control Rod",2],["Versatile Framework",5]],
+			"output": [["Magnetic Field Generator",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Modular Engine",
+			"input": [["Motor",2],["Rubber",15],["Smart Plating",2]],
+			"output": [["Modular Engine",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Modular Frame",
+			"input": [["Reinforced Iron Plate",3],["Iron Rod",12]],
+			"output": [["Modular Frame",2]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Motor",
+			"input": [["Rotor",2],["Stator",2]],
+			"output": [["Motor",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Neural-Quantum Processor",
+			"input": [["Supercomputer",1],["Ficsite Trigon",15],["Excited Photonic Matter",25000],["Time Crystal",5]],
+			"output": [["Dark Matter Residue",25000],["Neural-Quantum Processor",1]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "Nitric Acid",
+			"input": [["Iron Plate",1],["Nitrogen Gas",12000],["Water",3000]],
+			"output": [["Nitric Acid",3000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Nitrogen Gas (Bauxite)",
+			"input": [["Bauxite",10],["Reanimated SAM",1]],
+			"output": [["Nitrogen Gas",12000]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Nitrogen Gas (Caterium)",
+			"input": [["Caterium Ore",12],["Reanimated SAM",1]],
+			"output": [["Nitrogen Gas",12000]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Nobelisk",
+			"input": [["Black Powder",2],["Steel Pipe",2]],
+			"output": [["Nobelisk",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Nobelisk Detonator",
+			"input": [["Object Scanner",1],["Cable",50],["Steel Beam",10]],
+			"output": [["Nobelisk Detonator",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Non-Fissile Uranium",
+			"input": [["Nitric Acid",6000],["Uranium Waste",15],["Silica",10],["Sulfuric Acid",6000]],
+			"output": [["Non-Fissile Uranium",20],["Water",6000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Nuclear Pasta",
+			"input": [["Copper Powder",200],["Pressure Conversion Cube",1]],
+			"output": [["Nuclear Pasta",1]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Nuke Nobelisk",
+			"input": [["AI Limiter",6],["Smokeless Powder",10],["Nobelisk",5],["Encased Uranium Cell",20]],
+			"output": [["Nuke Nobelisk",1]],
+			"machine": ["Manufacturer","Equipment Workshop"]
+		},
+		{
+			"name": "Nutritional Inhaler",
+			"input": [["Paleberry",2],["Beryl Nut",5],["Bacon Agaric",1]],
+			"output": [["Medicinal Inhaler",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Object Scanner",
+			"input": [["Reinforced Iron Plate",4],["Screw",50],["Wire",20]],
+			"output": [["Object Scanner",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Packaged Alumina Solution",
+			"input": [["Alumina Solution",2000],["Empty Canister",2]],
+			"output": [["Packaged Alumina Solution",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Fuel",
+			"input": [["Empty Canister",2],["Fuel",2000]],
+			"output": [["Packaged Fuel",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Heavy Oil Residue",
+			"input": [["Empty Canister",2],["Heavy Oil Residue",2000]],
+			"output": [["Packaged Heavy Oil Residue",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Ionized Fuel",
+			"input": [["Empty Fluid Tank",2],["Ionized Fuel",4000]],
+			"output": [["Packaged Ionized Fuel",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Liquid Biofuel",
+			"input": [["Empty Canister",2],["Liquid Biofuel",2000]],
+			"output": [["Packaged Liquid Biofuel",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Nitric Acid",
+			"input": [["Empty Fluid Tank",1],["Nitric Acid",1000]],
+			"output": [["Packaged Nitric Acid",1]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Nitrogen Gas",
+			"input": [["Empty Fluid Tank",1],["Nitrogen Gas",4000]],
+			"output": [["Packaged Nitrogen Gas",1]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Oil",
+			"input": [["Empty Canister",2],["Crude Oil",2000]],
+			"output": [["Packaged Oil",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Rocket Fuel",
+			"input": [["Empty Fluid Tank",1],["Rocket Fuel",2000]],
+			"output": [["Packaged Rocket Fuel",1]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Sulfuric Acid",
+			"input": [["Empty Canister",2],["Sulfuric Acid",2000]],
+			"output": [["Packaged Sulfuric Acid",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Turbofuel",
+			"input": [["Empty Canister",2],["Turbofuel",2000]],
+			"output": [["Packaged Turbofuel",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Packaged Water",
+			"input": [["Empty Canister",2],["Water",2000]],
+			"output": [["Packaged Water",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Parachute",
+			"input": [["Cable",10],["Fabric",20]],
+			"output": [["Parachute",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Petroleum Coke",
+			"input": [["Heavy Oil Residue",4000]],
+			"output": [["Petroleum Coke",12]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Plastic",
+			"input": [["Crude Oil",3000]],
+			"output": [["Heavy Oil Residue",1000],["Plastic",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Plutonium Fuel Rod",
+			"input": [["Heat Sink",10],["Electromagnetic Control Rod",6],["Encased Plutonium Cell",30],["Steel Beam",18]],
+			"output": [["Plutonium Fuel Rod",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Plutonium Pellet",
+			"input": [["Non-Fissile Uranium",100],["Uranium Waste",25]],
+			"output": [["Plutonium Pellet",30]],
+			"machine": ["Particle Accelerator"]
+		},
+		{
+			"name": "Portable Miner",
+			"input": [["Iron Plate",2],["Iron Rod",4]],
+			"output": [["Portable Miner",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Power Shard (1)",
+			"input": [["Blue Power Slug",1]],
+			"output": [["Power Shard",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Power Shard (2)",
+			"input": [["Yellow Power Slug",1]],
+			"output": [["Power Shard",2]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Power Shard (5)",
+			"input": [["Purple Power Slug",1]],
+			"output": [["Power Shard",5]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Pressure Conversion Cube",
+			"input": [["Fused Modular Frame",1],["Radio Control Unit",2]],
+			"output": [["Pressure Conversion Cube",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Protein Inhaler",
+			"input": [["Alien Protein",1],["Beryl Nut",10]],
+			"output": [["Medicinal Inhaler",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Pulse Nobelisk",
+			"input": [["Crystal Oscillator",1],["Nobelisk",5]],
+			"output": [["Pulse Nobelisk",5]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Quartz Crystal",
+			"input": [["Raw Quartz",5]],
+			"output": [["Quartz Crystal",3]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Quickwire",
+			"input": [["Caterium Ingot",1]],
+			"output": [["Quickwire",5]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Radio Control Unit",
+			"input": [["Aluminum Casing",32],["Computer",2],["Crystal Oscillator",1]],
+			"output": [["Radio Control Unit",2]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Raw Quartz (Bauxite)",
+			"input": [["Bauxite",10],["Reanimated SAM",1]],
+			"output": [["Raw Quartz",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Raw Quartz (Coal)",
+			"input": [["Coal",24],["Reanimated SAM",1]],
+			"output": [["Raw Quartz",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Reanimated SAM",
+			"input": [["SAM",4]],
+			"output": [["Reanimated SAM",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Rebar Gun",
+			"input": [["Reinforced Iron Plate",6],["Iron Rod",16],["Screw",100]],
+			"output": [["Rebar Gun",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Red FICSMAS Ornament",
+			"input": [["FICSMAS Gift",1]],
+			"output": [["Red FICSMAS Ornament",1]],
+			"machine": ["Smelter"]
+		},
+		{
+			"name": "Reinforced Iron Plate",
+			"input": [["Iron Plate",6],["Screw",12]],
+			"output": [["Reinforced Iron Plate",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Residual Fuel",
+			"input": [["Heavy Oil Residue",6000]],
+			"output": [["Fuel",4000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Residual Plastic",
+			"input": [["Polymer Resin",6],["Water",2000]],
+			"output": [["Plastic",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Residual Rubber",
+			"input": [["Polymer Resin",4],["Water",4000]],
+			"output": [["Rubber",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Rifle",
+			"input": [["Screw",250],["Motor",2],["Rubber",10],["Steel Pipe",25]],
+			"output": [["Rifle",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Rifle Ammo",
+			"input": [["Copper Sheet",3],["Smokeless Powder",2]],
+			"output": [["Rifle Ammo",15]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Rocket Fuel",
+			"input": [["Turbofuel",6000],["Nitric Acid",1000]],
+			"output": [["Compacted Coal",1],["Rocket Fuel",10000]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Rotor",
+			"input": [["Iron Rod",5],["Screw",25]],
+			"output": [["Rotor",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Rubber",
+			"input": [["Crude Oil",3000]],
+			"output": [["Heavy Oil Residue",2000],["Rubber",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "SAM Fluctuator",
+			"input": [["Reanimated SAM",6],["Steel Pipe",3],["Wire",5]],
+			"output": [["SAM Fluctuator",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Screw",
+			"input": [["Iron Rod",1]],
+			"output": [["Screw",4]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Shatter Rebar",
+			"input": [["Quartz Crystal",3],["Iron Rebar",2]],
+			"output": [["Shatter Rebar",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Silica",
+			"input": [["Raw Quartz",3]],
+			"output": [["Silica",5]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Singularity Cell",
+			"input": [["Concrete",200],["Dark Matter Crystal",20],["Iron Plate",100],["Nuclear Pasta",1]],
+			"output": [["Singularity Cell",10]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Smart Plating",
+			"input": [["Reinforced Iron Plate",1],["Rotor",1]],
+			"output": [["Smart Plating",1]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Smokeless Powder",
+			"input": [["Black Powder",2],["Heavy Oil Residue",1000]],
+			"output": [["Smokeless Powder",2]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Snowball",
+			"input": [["Actual Snow",3]],
+			"output": [["Snowball",1]],
+			"machine": ["Constructor"]
+		},
+		{
+			"name": "Solid Biofuel",
+			"input": [["Biomass",8]],
+			"output": [["Solid Biofuel",4]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Sparkly Fireworks",
+			"input": [["Actual Snow",2],["FICSMAS Tree Branch",3]],
+			"output": [["Sparkly Fireworks",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Spitter Protein",
+			"input": [["Spitter Remains",1]],
+			"output": [["Alien Protein",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Stator",
+			"input": [["Steel Pipe",3],["Wire",8]],
+			"output": [["Stator",1]],
+			"machine": ["Assembler","Crafting Bench"]
+		},
+		{
+			"name": "Steel Beam",
+			"input": [["Steel Ingot",4]],
+			"output": [["Steel Beam",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Steel Ingot",
+			"input": [["Coal",3],["Iron Ore",3]],
+			"output": [["Steel Ingot",3]],
+			"machine": ["Foundry","Crafting Bench"]
+		},
+		{
+			"name": "Steel Pipe",
+			"input": [["Steel Ingot",3]],
+			"output": [["Steel Pipe",2]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Stinger Protein",
+			"input": [["Stinger Remains",1]],
+			"output": [["Alien Protein",1]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Stun Rebar",
+			"input": [["Quickwire",5],["Iron Rebar",1]],
+			"output": [["Stun Rebar",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Sulfur (Coal)",
+			"input": [["Coal",20],["Reanimated SAM",1]],
+			"output": [["Sulfur",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Sulfur (Iron)",
+			"input": [["Iron Ore",30],["Reanimated SAM",1]],
+			"output": [["Sulfur",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Sulfuric Acid",
+			"input": [["Sulfur",5],["Water",5000]],
+			"output": [["Sulfuric Acid",5000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Supercomputer",
+			"input": [["AI Limiter",2],["Computer",4],["High-Speed Connector",3],["Plastic",28]],
+			"output": [["Supercomputer",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Superposition Oscillator",
+			"input": [["Alclad Aluminum Sheet",9],["Crystal Oscillator",1],["Dark Matter Crystal",6],["Excited Photonic Matter",25000]],
+			"output": [["Dark Matter Residue",25000],["Superposition Oscillator",1]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "Sweet Fireworks",
+			"input": [["Candy Cane",3],["FICSMAS Tree Branch",6]],
+			"output": [["Sweet Fireworks",1]],
+			"machine": ["Assembler","Equipment Workshop"]
+		},
+		{
+			"name": "Synthetic Power Shard",
+			"input": [["Dark Matter Crystal",2],["Excited Photonic Matter",12000],["Quartz Crystal",12],["Time Crystal",2]],
+			"output": [["Power Shard",1],["Dark Matter Residue",12000]],
+			"machine": ["Quantum Encoder"]
+		},
+		{
+			"name": "Therapeutic Inhaler",
+			"input": [["Alien Protein",1],["Mycelia",15],["Bacon Agaric",1]],
+			"output": [["Medicinal Inhaler",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Thermal Propulsion Rocket",
+			"input": [["Cooling System",6],["Fused Modular Frame",2],["Turbo Motor",2],["Modular Engine",5]],
+			"output": [["Thermal Propulsion Rocket",2]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Time Crystal",
+			"input": [["Diamonds",2]],
+			"output": [["Time Crystal",1]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Turbo Motor",
+			"input": [["Cooling System",4],["Radio Control Unit",2],["Motor",4],["Rubber",24]],
+			"output": [["Turbo Motor",1]],
+			"machine": ["Manufacturer","Crafting Bench"]
+		},
+		{
+			"name": "Turbo Rifle Ammo",
+			"input": [["Aluminum Casing",3],["Rifle Ammo",25],["Packaged Turbofuel",3]],
+			"output": [["Turbo Rifle Ammo",50]],
+			"machine": ["Manufacturer","Equipment Workshop"]
+		},
+		{
+			"name": "Turbo Rifle Ammo",
+			"input": [["Aluminum Casing",3],["Rifle Ammo",25],["Turbofuel",3000]],
+			"output": [["Turbo Rifle Ammo",50]],
+			"machine": ["Blender"]
+		},
+		{
+			"name": "Turbofuel",
+			"input": [["Compacted Coal",4],["Fuel",6000]],
+			"output": [["Turbofuel",5000]],
+			"machine": ["Refinery"]
+		},
+		{
+			"name": "Unpackage Alumina Solution",
+			"input": [["Packaged Alumina Solution",2]],
+			"output": [["Alumina Solution",2000],["Empty Canister",2]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Fuel",
+			"input": [["Packaged Fuel",2]],
+			"output": [["Empty Canister",2],["Fuel",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Heavy Oil Residue",
+			"input": [["Packaged Heavy Oil Residue",2]],
+			"output": [["Empty Canister",2],["Heavy Oil Residue",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Ionized Fuel",
+			"input": [["Packaged Ionized Fuel",2]],
+			"output": [["Empty Fluid Tank",2],["Ionized Fuel",4000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Liquid Biofuel",
+			"input": [["Packaged Liquid Biofuel",2]],
+			"output": [["Empty Canister",2],["Liquid Biofuel",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Nitric Acid",
+			"input": [["Packaged Nitric Acid",1]],
+			"output": [["Empty Fluid Tank",1],["Nitric Acid",1000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Nitrogen Gas",
+			"input": [["Packaged Nitrogen Gas",1]],
+			"output": [["Empty Fluid Tank",1],["Nitrogen Gas",4000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Oil",
+			"input": [["Packaged Oil",2]],
+			"output": [["Empty Canister",2],["Crude Oil",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Rocket Fuel",
+			"input": [["Packaged Rocket Fuel",1]],
+			"output": [["Empty Fluid Tank",1],["Rocket Fuel",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Sulfuric Acid",
+			"input": [["Packaged Sulfuric Acid",1]],
+			"output": [["Empty Canister",1],["Sulfuric Acid",1000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Turbofuel",
+			"input": [["Packaged Turbofuel",2]],
+			"output": [["Empty Canister",2],["Turbofuel",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Unpackage Water",
+			"input": [["Packaged Water",2]],
+			"output": [["Empty Canister",2],["Water",2000]],
+			"machine": ["Packager"]
+		},
+		{
+			"name": "Uranium Fuel Rod",
+			"input": [["Electromagnetic Control Rod",5],["Encased Industrial Beam",3],["Encased Uranium Cell",50]],
+			"output": [["Uranium Fuel Rod",1]],
+			"machine": ["Manufacturer"]
+		},
+		{
+			"name": "Uranium Ore (Bauxite)",
+			"input": [["Bauxite",48],["Reanimated SAM",1]],
+			"output": [["Uranium",12]],
+			"machine": ["Converter"]
+		},
+		{
+			"name": "Versatile Framework",
+			"input": [["Modular Frame",1],["Steel Beam",12]],
+			"output": [["Versatile Framework",2]],
+			"machine": ["Assembler"]
+		},
+		{
+			"name": "Vitamin Inhaler",
+			"input": [["Paleberry",5],["Mycelia",10]],
+			"output": [["Medicinal Inhaler",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Wire",
+			"input": [["Copper Ingot",1]],
+			"output": [["Wire",2]],
+			"machine": ["Constructor","Crafting Bench"]
+		},
+		{
+			"name": "Xeno-Basher",
+			"input": [["Xeno-Zapper",2],["Iron Rod",25],["Modular Frame",5],["Wire",500]],
+			"output": [["Xeno-Basher",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Xeno-Zapper",
+			"input": [["Cable",15],["Reinforced Iron Plate",2],["Iron Rod",10],["Wire",50]],
+			"output": [["Xeno-Zapper",1]],
+			"machine": ["Equipment Workshop"]
+		},
+		{
+			"name": "Zipline",
+			"input": [["Xeno-Zapper",1],["Cable",10],["Quickwire",30],["Iron Rod",3]],
+			"output": [["Zipline",1]],
+			"machine": ["Equipment Workshop"]
+		}
+	]
+}
