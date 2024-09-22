@@ -112,7 +112,7 @@ run script ([`convert_json.js`](#convert_jsonjs)) and copy regexp "FModel IMG pa
 1. open `/Satisfactory/FactoryGameSteam.exe` via 7zip, go to folder `.rsrc` and open `version.txt` and see `PRODUCTVERSION` for Unreal-Engine version ~ `5,3,2,0` = `5.3`
 2. open FModel and follow the steps at <https://docs.ficsit.app/satisfactory-modding/latest/Development/ExtractGameFiles.html#FModel> \[[archive](https://github.com/satisfactorymodding/Documentation/blob/13a335186fb21965055007ecc9738ee8fa392708/modules/ROOT/pages/Development/ExtractGameFiles.adoc#fmodel "(GitHub) plain text permalink of website")\] (only `FModel` section) but with the Unreal-Engine version from previous step instead
 3. then in `Archives` tab (Loading Mode: Multiple) select `FactoryGame-Windows.pak` and `FactoryGame-Windows.utoc` and click on Load, it should switch to the `Folders` tab
-4. then click in the folder view and hit <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd></kbd> and paste in the "FModel IMG path regexp" from before
+4. then click in the folder view and hit <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd></kbd> and paste in the "FModel IMG path regexp" from before (make sure to check the `.*` to the right of the search bar) and press <kbd>Enter</kbd>
 5. select all listed files (<kbd><kbd>Ctrl</kbd>+<kbd>A</kbd></kbd>) and right-click and `safe texture (.png)`
 
 after all have finished extracting there should be a folder `FactoryGame` inside `/FModel/Output/Exports` with all the icons;
