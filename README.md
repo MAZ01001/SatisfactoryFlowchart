@@ -17,7 +17,7 @@ Simple flowchart for [Satisfactory](https://www.satisfactorygame.com/ "Open offi
 
 ---
 
-## `data.json`
+## [`data.json`](https://github.com/MAZ01001/SatisfactoryFlowchart/blob/main/data.json "Click to view file in GitHub")
 
 `UTF-8` JSON file with the following structure/formatting (with some example data in `en-US` language)
 
@@ -60,7 +60,7 @@ _there are narrow-non-break-spaces (U+202F) in descriptions between value and un
 Scroll [UP](#datajson "Scroll to start of section: data.json")
     | [TOP](#satisfactory-flowchart "Scroll to top of document: Satisfactory flowchart")
 
-## `data.dot`
+## [`data.dot`](https://github.com/MAZ01001/SatisfactoryFlowchart/blob/main/data.dot "Click to view file in GitHub")
 
 directed graph of recipe order
 
@@ -73,16 +73,18 @@ first all recipes (with label) then all connections for each recipe (all outgoin
 Scroll [UP](#datadot "Scroll to start of section: data.dot")
     | [TOP](#satisfactory-flowchart "Scroll to top of document: Satisfactory flowchart")
 
-## `gephi.svg`
+## [`gephi.svg`](https://github.com/MAZ01001/SatisfactoryFlowchart/blob/main/gephi.svg "Click to view file in GitHub")
+
+> online link: <https://maz01001.github.io/SatisfactoryFlowchart/gephi.svg>
 
 a (static) graph view of `data.dot` via <https://github.com/gephi/gephi/>
 
 Scroll [UP](#datadot "Scroll to start of section: data.dot")
     | [TOP](#satisfactory-flowchart "Scroll to top of document: Satisfactory flowchart")
 
-## `convert_json.js`
+## [`convert_json.js`](https://github.com/MAZ01001/SatisfactoryFlowchart/blob/main/convert_json.js "Click to view file in GitHub")
 
-get `node.js`: <https://github.com/nodejs/node> (easier to install `Visual Studio (Community)` and add `node.js` as dev-environment)
+- get `node.js`: <https://github.com/nodejs/node> (easier to install `Visual Studio (Community)` and add `node.js` as dev-environment)
 
 ```shell
 # generate data.json with en-US language in current directory (overrides data.json)
@@ -92,7 +94,7 @@ node convert_json.js /Satisfactory/CommunityResources/Docs/en-US.json data.json
 node convert_json.js /Satisfactory/CommunityResources/Docs/en-US.json data.json data.dot
 ```
 
-the script works with any of the languages in the `/Satisfactory/CommunityResources/Docs/` folder; sorting is also language dependent
+the script works with any of the languages in the `/Satisfactory/CommunityResources/Docs/` folder; string-sorting is also language dependent
 
 _does not calculate graph connections when `data.dot` CLI-parameter is not supplied_
 
