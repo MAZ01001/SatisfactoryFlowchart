@@ -76,9 +76,11 @@ Scroll [UP](#datadot "Scroll to start of section: data.dot")
 
 ## [`gephi.svg`](https://github.com/MAZ01001/SatisfactoryFlowchart/blob/main/gephi.svg "Click to view file in GitHub")
 
-> online link: <https://maz01001.github.io/SatisfactoryFlowchart/gephi.svg>
-
 a (static) graph view of `data.dot` via <https://github.com/gephi/gephi/>
+
+<a href="https://maz01001.github.io/SatisfactoryFlowchart/gephi.png" target="_blank" title="Click to view image in new tab"><img src="gephi.png" height="256" alt="4K image of generated graph"></a>
+
+> SVG with selectable text here: <https://maz01001.github.io/SatisfactoryFlowchart/gephi.svg>
 
 Scroll [UP](#datadot "Scroll to start of section: data.dot")
     | [TOP](#satisfactory-flowchart "Scroll to top of document: Satisfactory flowchart")
