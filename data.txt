@@ -1,0 +1,192 @@
+      0 ─┐  (non-sinkable or special behaviour)
+         ├─ Alien DNA Capsule
+         ├─ Alien Protein
+         ├─ Bacon Agaric
+         ├─ Beryl Nut
+         ├─ Blue Power Slug
+         ├─ Dissolved Silica
+         ├─ Encased Plutonium Cell
+         ├─ Ficsonium
+         ├─ Ficsonium Fuel Rod
+         ├─ Hatcher Remains
+         ├─ Hog Remains
+         ├─ Mercer Sphere
+         ├─ Non-Fissile Uranium
+         ├─ Paleberry
+         ├─ Plutonium Pellet
+         ├─ Plutonium Waste
+         ├─ Power Shard
+         ├─ Purple Power Slug
+         ├─ Somersloop
+         ├─ Spitter Remains
+         ├─ Stinger Remains
+         ├─ Uranium Waste
+         └─ Yellow Power Slug
+      1 ─┬─ Blue FICSMAS Ornament
+         ├─ FICSMAS Gift
+         └─ Iron Ore
+      2 ─┬─ FICSMAS Tree Branch
+         ├─ Iron Ingot
+         ├─ Limestone
+         ├─ Red FICSMAS Ornament
+         └─ Screw
+      3 ─┬─ Coal
+         ├─ Copper Ore
+         └─ Leaves
+      4 ─┬─ FICSMAS Bow
+         └─ Iron Rod
+      5 ─┬─ FICSMAS Actual Snow
+         └─ Water
+      6 ─┬─ Candy Cane
+         ├─ Copper Ingot
+         ├─ Iron Plate
+         └─ Wire
+      7 ─── Caterium Ore
+      8 ─┬─ Bauxite
+         ├─ Iron Rebar
+         └─ Steel Ingot
+     10 ─┬─ Mycelia
+         └─ Nitrogen Gas
+     11 ─── Sulfur
+     12 ─┬─ Biomass
+         ├─ Concrete
+         └─ Polymer Resin
+     14 ─── Black Powder
+     15 ─── Raw Quartz
+     16 ─── Sulfuric Acid
+     17 ─── Quickwire
+     18 ─── Iron FICSMAS Ornament
+     20 ─┬─ Alumina Solution
+         ├─ Petroleum Coke
+         ├─ SAM
+         └─ Silica
+     24 ─┬─ Cable
+         ├─ Copper Sheet
+         └─ Steel Pipe
+     25 ─── Rifle Ammo
+     27 ─── Aluminum Scrap
+     28 ─── Compacted Coal
+     30 ─┬─ Crude Oil
+         ├─ Heavy Oil Residue
+         ├─ Snowball
+         └─ Wood
+     32 ─┬─ Copper FICSMAS Ornament
+         └─ Sparkly Fireworks
+     35 ─── Uranium
+     40 ─── Fancy Fireworks
+     42 ─── Caterium Ingot
+     48 ─── Solid Biofuel
+     50 ─── Quartz Crystal
+     56 ─── Portable Miner
+     58 ─── Smokeless Powder
+     60 ─┬─ Empty Canister
+         ├─ Rubber
+         └─ Sweet Fireworks
+     64 ─── Steel Beam
+     72 ─── Copper Powder
+     75 ─┬─ Fuel
+         └─ Plastic
+     94 ─── Nitric Acid
+    100 ─┬─ Excited Photonic Matter
+         └─ FICSMAS Ornament Bundle
+    120 ─┬─ Reinforced Iron Plate
+         └─ Turbo Rifle Ammo
+    125 ─── Medicinal Inhaler
+    130 ─┬─ Dark Matter Residue
+         └─ Packaged Water
+    131 ─── Aluminum Ingot
+    140 ─┬─ Fabric
+         └─ Rotor
+    147 ─── Encased Uranium Cell
+    152 ─┬─ Nobelisk
+         └─ Packaged Sulfuric Acid
+    160 ─┬─ Packaged Alumina Solution
+         └─ Reanimated SAM
+    170 ─── Empty Fluid Tank
+    180 ─┬─ Packaged Heavy Oil Residue
+         └─ Packaged Oil
+    186 ─── Stun Rebar
+    210 ─── Alien Power Matrix
+    225 ─── Turbofuel
+    240 ─┬─ Diamonds
+         └─ Stator
+    261 ─── Liquid Biofuel
+    266 ─── Alclad Aluminum Sheet
+    270 ─── Packaged Fuel
+    289 ─── Rocket Fuel
+    312 ─── Packaged Nitrogen Gas
+    332 ─── Shatter Rebar
+    360 ─── Explosive Rebar
+    370 ─── Packaged Liquid Biofuel
+    393 ─── Aluminum Casing
+    408 ─── Modular Frame
+    412 ─── Packaged Nitric Acid
+    465 ─── Battery
+    520 ─── Smart Plating
+    528 ─── Encased Industrial Beam
+    544 ─── Gas Nobelisk
+    570 ─── Packaged Turbofuel
+    608 ─── Gas Filter
+    630 ─── FICSMAS Wreath
+    696 ─── Circuit Board
+    855 ─── Homing Rifle Ammo
+    920 ─── AI Limiter
+    960 ─── Time Crystal
+   1028 ─── Packaged Rocket Fuel
+   1176 ─── Versatile Framework
+   1291 ─── Ficsite Trigon
+   1376 ─── Cluster Nobelisk
+   1400 ─── Object Scanner
+   1440 ─── Automated Wiring
+   1520 ─── Motor
+   1533 ─── Pulse Nobelisk
+   1552 ─── Factory Cart™
+   1780 ─── Dark Matter Crystal
+   1852 ─── Golden Factory Cart™
+   1880 ─── Xeno-Zapper
+   1936 ─── Ficsite Ingot
+   1968 ─┬─ Rebar Gun
+         └─ SAM Fluctuator
+   2274 ─── Iodine-Infused Filter
+   2398 ─── Ionized Fuel
+   2560 ─── Electromagnetic Control Rod
+   2760 ─── Chainsaw
+   2804 ─── Heat Sink
+   3072 ─── Crystal Oscillator
+   3776 ─── High-Speed Connector
+   4088 ─── Blade Runners
+   5246 ─── Packaged Ionized Fuel
+   5284 ─── Zipline
+   6080 ─── Parachute
+   6480 ─── Nobelisk Detonator
+   6540 ─── FICSMAS Wonder Star
+   7850 ─── Candy Cane Basher
+   8352 ─── Computer
+   9480 ─── Rifle
+   9960 ─── Modular Engine
+  10800 ─── Heavy Modular Frame
+  11000 ─── Magnetic Field Generator
+  12006 ─── Cooling System
+  14960 ─── Gas Mask
+  16580 ─── Jetpack
+  17800 ─── Xeno-Basher
+  19600 ─── Nuke Nobelisk
+  32352 ─── Radio Control Unit
+  37292 ─── Superposition Oscillator
+  43468 ─── Uranium Fuel Rod
+  54100 ─── Hazmat Suit
+  62840 ─── Fused Modular Frame
+  76368 ─── Adaptive Control Unit
+  97352 ─── Supercomputer
+ 114675 ─── Singularity Cell
+ 153184 ─── Plutonium Fuel Rod
+ 240496 ─── Turbo Motor
+ 248034 ─── Neural-Quantum Processor
+ 255088 ─── Pressure Conversion Cube
+ 265632 ─── Hoverpack
+ 301778 ─── Biochemical Sculptor
+ 500176 ─── Assembly Director System
+ 538976 ─── Nuclear Pasta
+ 597652 ─── AI Expansion Server
+ 728508 ─── Thermal Propulsion Rocket
+2895334 ─── Ballistic Warp Drive
