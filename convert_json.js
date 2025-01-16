@@ -68,14 +68,22 @@ let maxManufacturerNameLength=0,
 
 //#region parse JSON file
 let timeStart=performance.now();
-for(const{NativeClass,Classes}of JSON.parse((()=>{
-    try{return fs.readFileSync(FileIn,"utf-16le");}
-    catch(e){
-        if(e?.code==="ENOENT")console.error("[ERROR] input file could not be found!");
+for(const{NativeClass,Classes}of (()=>{
+    try{
+        return JSON.parse((()=>{
+            try{return fs.readFileSync(FileIn,"utf-16le");}
+            catch(e){
+                if(e?.code==="ENOENT")console.error("[ERROR] input file could not be found!");
+                else console.error(e?.message??e);
+                process.exit(6);
+            }
+        })().substring(1));//! ignore BOM (0xFEFF) at start of file so JSON can be parsed
+    }catch(e){
+        if(e instanceof SyntaxError)console.error("[ERROR] input file has invalid JSON!");
         else console.error(e?.message??e);
-        process.exit(6);
+        process.exit(7);
     }
-})().substring(1))){//! ignore BOM (0xFEFF) at start of file so JSON can be parsed
+})()){
     const NC=NativeClass.match(/^[^']*'[^.]*\.FG(\w+)'$/)[1];
     if(/^(?:AmmoType(?:InstantHit|Projectile|Spreadshot)|(?:Consumable|Equipment|Resource|PowerShard)Descriptor|ItemDescriptor(?:Biomass|(?:Nuclear|PowerBooster)Fuel)?)$/.test(NC))
         for(const{ClassName,mDisplayName,mDescription,mForm,mSmallIcon,mResourceSinkPoints}of Classes){
@@ -257,7 +265,7 @@ const data=`{
 try{fs.writeFileSync(FileOut,data,{encoding:"utf-8"});}
 catch(e){
     console.error(e?.message??e);
-    process.exit(7);
+    process.exit(8);
 }
 console.info(">> output JSON file constructed and written in %s ms",(performance.now()-timeStart).toFixed(4));
 //#endregion
@@ -282,7 +290,7 @@ if(FileTxt!=null){
     try{fs.writeFileSync(FileTxt,sinkTotal.replaceAll(/├(?=[^\n]*\n *\d)/g,"└").replaceAll(/┬(?=[^\n]*(?:\n *\d|$))/g,"─")+"\n",{encoding:"utf-8"});}
     catch(e){
         console.error(e?.message??e);
-        process.exit(8);
+        process.exit(9);
     }
     console.info(">> output TXT file constructed and written in %s ms",(performance.now()-timeStart).toFixed(4));
 }
@@ -304,7 +312,7 @@ if(FileDot!=null){
     try{fs.writeFileSync(FileDot,`digraph Recipes {${dotEl}\n${dotRl}\n}\n`,{encoding:"utf-8"});}
     catch(e){
         console.error(e?.message??e);
-        process.exit(9);
+        process.exit(10);
     }
     console.info(">> output DOT file constructed and written in %s ms",(performance.now()-timeStart).toFixed(4));
 }
